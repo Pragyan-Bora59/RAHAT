@@ -1,0 +1,11 @@
+resource_id,resource_type,quantity,location,original_location,purpose,source,source_date,status_type
+RES001,boat,6.0,Jonai Response Base,Dhemaji Fire Station,10 persons/boat,DDMP Dhemaji 2024-25,2024-06-01,Official Government Baseline
+RES002,boat,1.0,Dhemaji,Dhemaji,Medical Team,DDMP Dhemaji 2024-25,2024-06-01,Official Government Baseline
+RES003,boat,25.0,Police Station,Sissiborgaon Ghat,15 persons/boat,DDMP Dhemaji 2024-25,2024-06-15,Official Government Baseline
+RES004,boat,15.0,Police Station,Gogamukh,15 persons/boat,DDMP Dhemaji 2024-25,2024-06-15,Official Government Baseline
+RES005,boat,30.0,Jonai Response Base,Jonai Ghat,15 persons/boat,DDMP Dhemaji 2024-25,2024-06-15,Official Government Baseline
+RES009,food_kg,1000000.0,Jonai Response Base,FCI Godown Dhemaji,N/A,DDMP Dhemaji 2024-25,2024-06-10,Official Government Baseline
+RES010,food_kg,200000.0,Jonai Response Base,FCI Godown Dhemaji,N/A,DDMP Dhemaji 2024-25,2024-06-10,Official Government Baseline
+RES011,medical_team,4.0,Jonai CHC,Dhemaji Civil Hospital,N/A,DDMP Dhemaji 2024-25,2024-06-01,Official Government Baseline
+RES012,medical_team,2.0,Jonai CHC,Jonai CHC,N/A,DDMP Dhemaji 2024-25,2024-06-01,Official Government Baseline
+RES014,water_liters,15000.0,Jonai Response Base,PHE Division Dhemaji,5000 L/day,DDMP Dhemaji 2024-25,2024-06-01,Official Government Baseline

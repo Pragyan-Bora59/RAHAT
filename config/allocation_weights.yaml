@@ -1,0 +1,31 @@
+route_cost:
+  distance: 0.30
+  time: 0.40
+  risk: 0.30
+
+objective:
+  unmet_demand_penalty: 1000.0
+  
+resource_criticality:
+  boat: 1.0
+  medical_team: 1.0
+  water_liters: 0.9
+  food_kg: 0.8
+
+demand:
+  medical_use_ceiling: true
+  boat_use_ceiling: true
+
+location_mapping:
+  # Map district strings to prototype graph node names (or nearest equivalent)
+  "Dhemaji Fire Station": "Jonai Response Base"
+  "Jonai Ghat": "Jonai Response Base"
+  "Dhemaji (Pre-positioned)": "Jonai Response Base"
+  "Dhemaji Civil Hospital": "Jonai CHC"
+  "Jonai CHC": "Jonai CHC"
+  "DDMA Godown Dhemaji": "Jonai Response Base"
+  "FCI Godown Dhemaji": "Jonai Response Base"
+  "Joint DHS Office Dhemaji": "Jonai CHC"
+  "PHE Division Dhemaji": "Jonai Response Base"
+  "Sissiborgaon Ghat": "Police Station"
+  "Gogamukh": "Police Station"

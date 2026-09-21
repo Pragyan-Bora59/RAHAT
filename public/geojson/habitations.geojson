@@ -1,0 +1,365 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.166,
+          27.766
+        ]
+      },
+      "properties": {
+        "name": "Jonai Bazar",
+        "population": 4500,
+        "status": {
+          "11jul": {
+            "hazard_class": 1,
+            "affected_pop": 0,
+            "accessibility": "Excellent"
+          },
+          "18jul": {
+            "hazard_class": 2,
+            "affected_pop": 900,
+            "accessibility": "Good"
+          },
+          "22jul": {
+            "hazard_class": 4,
+            "affected_pop": 4050,
+            "accessibility": "Poor"
+          },
+          "28jul": {
+            "hazard_class": 2,
+            "affected_pop": 900,
+            "accessibility": "Good"
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.172,
+          27.781
+        ]
+      },
+      "properties": {
+        "name": "Murkongselek Station Area",
+        "population": 3200,
+        "status": {
+          "11jul": {
+            "hazard_class": 1,
+            "affected_pop": 0,
+            "accessibility": "Excellent"
+          },
+          "18jul": {
+            "hazard_class": 1,
+            "affected_pop": 0,
+            "accessibility": "Excellent"
+          },
+          "22jul": {
+            "hazard_class": 4,
+            "affected_pop": 2880,
+            "accessibility": "Poor"
+          },
+          "28jul": {
+            "hazard_class": 1,
+            "affected_pop": 0,
+            "accessibility": "Excellent"
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.14,
+          27.745
+        ]
+      },
+      "properties": {
+        "name": "Laimekuri",
+        "population": 1800,
+        "status": {
+          "11jul": {
+            "hazard_class": 1,
+            "affected_pop": 0,
+            "accessibility": "Excellent"
+          },
+          "18jul": {
+            "hazard_class": 3,
+            "affected_pop": 1080,
+            "accessibility": "Moderate"
+          },
+          "22jul": {
+            "hazard_class": 4,
+            "affected_pop": 1620,
+            "accessibility": "Poor"
+          },
+          "28jul": {
+            "hazard_class": 2,
+            "affected_pop": 360,
+            "accessibility": "Good"
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.185,
+          27.795
+        ]
+      },
+      "properties": {
+        "name": "Rayang",
+        "population": 1500,
+        "status": {
+          "11jul": {
+            "hazard_class": 1,
+            "affected_pop": 0,
+            "accessibility": "Excellent"
+          },
+          "18jul": {
+            "hazard_class": 2,
+            "affected_pop": 300,
+            "accessibility": "Good"
+          },
+          "22jul": {
+            "hazard_class": 1,
+            "affected_pop": 0,
+            "accessibility": "Excellent"
+          },
+          "28jul": {
+            "hazard_class": 1,
+            "affected_pop": 0,
+            "accessibility": "Excellent"
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.19,
+          27.75
+        ]
+      },
+      "properties": {
+        "name": "Dekapam",
+        "population": 1200,
+        "status": {
+          "11jul": {
+            "hazard_class": 1,
+            "affected_pop": 0,
+            "accessibility": "Excellent"
+          },
+          "18jul": {
+            "hazard_class": 1,
+            "affected_pop": 0,
+            "accessibility": "Excellent"
+          },
+          "22jul": {
+            "hazard_class": 4,
+            "affected_pop": 1080,
+            "accessibility": "Poor"
+          },
+          "28jul": {
+            "hazard_class": 1,
+            "affected_pop": 0,
+            "accessibility": "Excellent"
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.15,
+          27.81
+        ]
+      },
+      "properties": {
+        "name": "Bahir Sille",
+        "population": 950,
+        "status": {
+          "11jul": {
+            "hazard_class": 1,
+            "affected_pop": 0,
+            "accessibility": "Excellent"
+          },
+          "18jul": {
+            "hazard_class": 1,
+            "affected_pop": 0,
+            "accessibility": "Excellent"
+          },
+          "22jul": {
+            "hazard_class": 1,
+            "affected_pop": 0,
+            "accessibility": "Excellent"
+          },
+          "28jul": {
+            "hazard_class": 1,
+            "affected_pop": 0,
+            "accessibility": "Excellent"
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.12,
+          27.73
+        ]
+      },
+      "properties": {
+        "name": "Dimow",
+        "population": 2100,
+        "status": {
+          "11jul": {
+            "hazard_class": 1,
+            "affected_pop": 0,
+            "accessibility": "Excellent"
+          },
+          "18jul": {
+            "hazard_class": 1,
+            "affected_pop": 0,
+            "accessibility": "Excellent"
+          },
+          "22jul": {
+            "hazard_class": 4,
+            "affected_pop": 1890,
+            "accessibility": "Poor"
+          },
+          "28jul": {
+            "hazard_class": 2,
+            "affected_pop": 420,
+            "accessibility": "Good"
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.98,
+          27.68
+        ]
+      },
+      "properties": {
+        "name": "Simen Chapori",
+        "population": 3800,
+        "status": {
+          "11jul": {
+            "hazard_class": 1,
+            "affected_pop": 0,
+            "accessibility": "Excellent"
+          },
+          "18jul": {
+            "hazard_class": 1,
+            "affected_pop": 0,
+            "accessibility": "Excellent"
+          },
+          "22jul": {
+            "hazard_class": 4,
+            "affected_pop": 3420,
+            "accessibility": "Poor"
+          },
+          "28jul": {
+            "hazard_class": 1,
+            "affected_pop": 0,
+            "accessibility": "Excellent"
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.11,
+          27.77
+        ]
+      },
+      "properties": {
+        "name": "Ramdhan",
+        "population": 1100,
+        "status": {
+          "11jul": {
+            "hazard_class": 1,
+            "affected_pop": 0,
+            "accessibility": "Excellent"
+          },
+          "18jul": {
+            "hazard_class": 1,
+            "affected_pop": 0,
+            "accessibility": "Excellent"
+          },
+          "22jul": {
+            "hazard_class": 4,
+            "affected_pop": 990,
+            "accessibility": "Poor"
+          },
+          "28jul": {
+            "hazard_class": 1,
+            "affected_pop": 0,
+            "accessibility": "Excellent"
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2,
+          27.82
+        ]
+      },
+      "properties": {
+        "name": "Oiramghat",
+        "population": 850,
+        "status": {
+          "11jul": {
+            "hazard_class": 1,
+            "affected_pop": 0,
+            "accessibility": "Excellent"
+          },
+          "18jul": {
+            "hazard_class": 1,
+            "affected_pop": 0,
+            "accessibility": "Excellent"
+          },
+          "22jul": {
+            "hazard_class": 1,
+            "affected_pop": 0,
+            "accessibility": "Excellent"
+          },
+          "28jul": {
+            "hazard_class": 2,
+            "affected_pop": 170,
+            "accessibility": "Good"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jonai CHC",
+        "type": "CHC",
+        "place": "No.1 Rayengkuli, MURKONGSELEK",
+        "district": "Dhemaji",
+        "state": "ASSAM",
+        "source": "nic",
+        "layer": "community_health_centre",
+        "village_id": "106075",
+        "source_id": 2492
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.21128299969219,
+          27.83798300018288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ramdhan MPHC",
+        "type": "PHC",
+        "place": "Santipur, MURKONGSELEK",
+        "district": "Dhemaji",
+        "state": "ASSAM",
+        "source": "nic",
+        "layer": "primary_health_centre",
+        "village_id": "106080",
+        "source_id": 13985
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.05660000054,
+          27.725283000274803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Telam MPHC",
+        "type": "PHC",
+        "place": "Komanselek, MURKONGSELEK",
+        "district": "Dhemaji",
+        "state": "ASSAM",
+        "source": "nic",
+        "layer": "primary_health_centre",
+        "village_id": "106085",
+        "source_id": 13986
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.00951700040541,
+          27.764166999994433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Napam Kuli SC",
+        "type": "SCE",
+        "place": "Bhalukaguri Dambuk, SISSIBARGAON",
+        "district": "Dhemaji",
+        "state": "ASSAM",
+        "source": "nic",
+        "layer": "sub_center",
+        "village_id": "106027",
+        "source_id": 110519
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8422330003862,
+          27.608917000191195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lamajan SC",
+        "type": "SCE",
+        "place": "Bhalukaguri Dambuk, SISSIBARGAON",
+        "district": "Dhemaji",
+        "state": "ASSAM",
+        "source": "nic",
+        "layer": "sub_center",
+        "village_id": "106027",
+        "source_id": 110526
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.89665000011226,
+          27.62726699997208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Laika SC",
+        "type": "SCE",
+        "place": "Balijan Gaon, GUIJAN",
+        "district": "Tinsukia",
+        "state": "ASSAM",
+        "source": "nic",
+        "layer": "sub_center",
+        "village_id": "107695",
+        "source_id": 110533
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.28948299987155,
+          27.664199999703726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rongpuria SC",
+        "type": "SCE",
+        "place": "Dijmurmiri Pathar, SISSIBARGAON",
+        "district": "Dhemaji",
+        "state": "ASSAM",
+        "source": "nic",
+        "layer": "sub_center",
+        "village_id": "106025",
+        "source_id": 110536
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8689000007367,
+          27.67438300014428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dipa SC",
+        "type": "SCE",
+        "place": "Dijmurmiri Pathar, SISSIBARGAON",
+        "district": "Dhemaji",
+        "state": "ASSAM",
+        "source": "nic",
+        "layer": "sub_center",
+        "village_id": "106025",
+        "source_id": 110541
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.85506699998338,
+          27.70598300008109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boikunthapur SC",
+        "type": "SCE",
+        "place": "Komanselek, MURKONGSELEK",
+        "district": "Dhemaji",
+        "state": "ASSAM",
+        "source": "nic",
+        "layer": "sub_center",
+        "village_id": "106085",
+        "source_id": 110546
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.05280000022572,
+          27.750066999842563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Laimekuri SC",
+        "type": "SCE",
+        "place": "Santipur, MURKONGSELEK",
+        "district": "Dhemaji",
+        "state": "ASSAM",
+        "source": "nic",
+        "layer": "sub_center",
+        "village_id": "106080",
+        "source_id": 110547
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.07210000047444,
+          27.75528300014188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rayeng Mising SC",
+        "type": "SCE",
+        "place": "No.1 Rayengkuli, MURKONGSELEK",
+        "district": "Dhemaji",
+        "state": "ASSAM",
+        "source": "nic",
+        "layer": "sub_center",
+        "village_id": "106075",
+        "source_id": 110548
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.19660000044067,
+          27.81665000017022
+        ]
+      }
+    }
+  ]
+}

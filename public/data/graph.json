@@ -1,0 +1,2600 @@
+{
+  "nodes": [
+    {
+      "id": "95.0068_27.78",
+      "lon": 95.0068,
+      "lat": 27.78,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "94.9835_27.7765",
+      "lon": 94.9835,
+      "lat": 27.7765,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "94.9772_27.796",
+      "lon": 94.9772,
+      "lat": 27.796,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "94.9294_27.7511",
+      "lon": 94.9294,
+      "lat": 27.7511,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.0039_27.7623",
+      "lon": 95.0039,
+      "lat": 27.7623,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.0045_27.765",
+      "lon": 95.0045,
+      "lat": 27.765,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.0068_27.7762",
+      "lon": 95.0068,
+      "lat": 27.7762,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.0059_27.7626",
+      "lon": 95.0059,
+      "lat": 27.7626,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.0089_27.7695",
+      "lon": 95.0089,
+      "lat": 27.7695,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.0174_27.7722",
+      "lon": 95.0174,
+      "lat": 27.7722,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.0052_27.7679",
+      "lon": 95.0052,
+      "lat": 27.7679,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.0106_27.7642",
+      "lon": 95.0106,
+      "lat": 27.7642,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.0083_27.7767",
+      "lon": 95.0083,
+      "lat": 27.7767,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.0089_27.777",
+      "lon": 95.0089,
+      "lat": 27.777,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.0449_27.7881",
+      "lon": 95.0449,
+      "lat": 27.7881,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.0422_27.8",
+      "lon": 95.0422,
+      "lat": 27.8,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.0422_27.7997",
+      "lon": 95.0422,
+      "lat": 27.7997,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.0544_27.791",
+      "lon": 95.0544,
+      "lat": 27.791,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.0633_27.7686",
+      "lon": 95.0633,
+      "lat": 27.7686,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.0551_27.7531",
+      "lon": 95.0551,
+      "lat": 27.7531,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.0531_27.7496",
+      "lon": 95.0531,
+      "lat": 27.7496,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.0615_27.7599",
+      "lon": 95.0615,
+      "lat": 27.7599,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.0682_27.7547",
+      "lon": 95.0682,
+      "lat": 27.7547,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.0696_27.7463",
+      "lon": 95.0696,
+      "lat": 27.7463,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.0718_27.7543",
+      "lon": 95.0718,
+      "lat": 27.7543,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.0659_27.7562",
+      "lon": 95.0659,
+      "lat": 27.7562,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.076_27.75",
+      "lon": 95.076,
+      "lat": 27.75,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.102_27.7531",
+      "lon": 95.102,
+      "lat": 27.7531,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.0961_27.7611",
+      "lon": 95.0961,
+      "lat": 27.7611,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.1198_27.754",
+      "lon": 95.1198,
+      "lat": 27.754,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2182_27.8497",
+      "lon": 95.2182,
+      "lat": 27.8497,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2211_27.8416",
+      "lon": 95.2211,
+      "lat": 27.8416,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.1972_27.8516",
+      "lon": 95.1972,
+      "lat": 27.8516,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2119_27.8208",
+      "lon": 95.2119,
+      "lat": 27.8208,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2188_27.8361",
+      "lon": 95.2188,
+      "lat": 27.8361,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2133_27.8364",
+      "lon": 95.2133,
+      "lat": 27.8364,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.215_27.8364",
+      "lon": 95.215,
+      "lat": 27.8364,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2146_27.839",
+      "lon": 95.2146,
+      "lat": 27.839,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2226_27.8354",
+      "lon": 95.2226,
+      "lat": 27.8354,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2259_27.8283",
+      "lon": 95.2259,
+      "lat": 27.8283,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2235_27.8246",
+      "lon": 95.2235,
+      "lat": 27.8246,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2256_27.8234",
+      "lon": 95.2256,
+      "lat": 27.8234,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2107_27.7993",
+      "lon": 95.2107,
+      "lat": 27.7993,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.1979_27.8093",
+      "lon": 95.1979,
+      "lat": 27.8093,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2025_27.7989",
+      "lon": 95.2025,
+      "lat": 27.7989,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.1604_27.7688",
+      "lon": 95.1604,
+      "lat": 27.7688,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.1758_27.7918",
+      "lon": 95.1758,
+      "lat": 27.7918,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.1318_27.757",
+      "lon": 95.1318,
+      "lat": 27.757,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.1523_27.7626",
+      "lon": 95.1523,
+      "lat": 27.7626,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.155_27.7458",
+      "lon": 95.155,
+      "lat": 27.7458,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.1803_27.767",
+      "lon": 95.1803,
+      "lat": 27.767,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.1825_27.7872",
+      "lon": 95.1825,
+      "lat": 27.7872,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.1811_27.794",
+      "lon": 95.1811,
+      "lat": 27.794,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2721_27.7919",
+      "lon": 95.2721,
+      "lat": 27.7919,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2905_27.7803",
+      "lon": 95.2905,
+      "lat": 27.7803,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2767_27.8081",
+      "lon": 95.2767,
+      "lat": 27.8081,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2497_27.7992",
+      "lon": 95.2497,
+      "lat": 27.7992,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2302_27.8224",
+      "lon": 95.2302,
+      "lat": 27.8224,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2288_27.8242",
+      "lon": 95.2288,
+      "lat": 27.8242,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2343_27.8279",
+      "lon": 95.2343,
+      "lat": 27.8279,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2276_27.8261",
+      "lon": 95.2276,
+      "lat": 27.8261,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2504_27.8511",
+      "lon": 95.2504,
+      "lat": 27.8511,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2574_27.8533",
+      "lon": 95.2574,
+      "lat": 27.8533,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2651_27.8358",
+      "lon": 95.2651,
+      "lat": 27.8358,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2625_27.8387",
+      "lon": 95.2625,
+      "lat": 27.8387,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2589_27.8407",
+      "lon": 95.2589,
+      "lat": 27.8407,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2593_27.8539",
+      "lon": 95.2593,
+      "lat": 27.8539,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2738_27.8277",
+      "lon": 95.2738,
+      "lat": 27.8277,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2738_27.8213",
+      "lon": 95.2738,
+      "lat": 27.8213,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2988_27.8499",
+      "lon": 95.2988,
+      "lat": 27.8499,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.291_27.8637",
+      "lon": 95.291,
+      "lat": 27.8637,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2896_27.8857",
+      "lon": 95.2896,
+      "lat": 27.8857,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.289_27.8864",
+      "lon": 95.289,
+      "lat": 27.8864,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2953_27.8909",
+      "lon": 95.2953,
+      "lat": 27.8909,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2971_27.8937",
+      "lon": 95.2971,
+      "lat": 27.8937,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2961_27.8918",
+      "lon": 95.2961,
+      "lat": 27.8918,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.27_27.8782",
+      "lon": 95.27,
+      "lat": 27.8782,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.2538_27.8691",
+      "lon": 95.2538,
+      "lat": 27.8691,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.1344_27.7406",
+      "lon": 95.1344,
+      "lat": 27.7406,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.1325_27.7311",
+      "lon": 95.1325,
+      "lat": 27.7311,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.1196_27.741",
+      "lon": 95.1196,
+      "lat": 27.741,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.1046_27.7424",
+      "lon": 95.1046,
+      "lat": 27.7424,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.0751_27.7471",
+      "lon": 95.0751,
+      "lat": 27.7471,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.0764_27.75",
+      "lon": 95.0764,
+      "lat": 27.75,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.055_27.7232",
+      "lon": 95.055,
+      "lat": 27.7232,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "94.9337_27.7222",
+      "lon": 94.9337,
+      "lat": 27.7222,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "94.9625_27.6863",
+      "lon": 94.9625,
+      "lat": 27.6863,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "94.8904_27.7216",
+      "lon": 94.8904,
+      "lat": 27.7216,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "94.9033_27.6909",
+      "lon": 94.9033,
+      "lat": 27.6909,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "94.9023_27.6775",
+      "lon": 94.9023,
+      "lat": 27.6775,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "94.8887_27.6842",
+      "lon": 94.8887,
+      "lat": 27.6842,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "94.8928_27.6709",
+      "lon": 94.8928,
+      "lat": 27.6709,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "94.8875_27.6481",
+      "lon": 94.8875,
+      "lat": 27.6481,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "94.8928_27.6303",
+      "lon": 94.8928,
+      "lat": 27.6303,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "94.8412_27.6121",
+      "lon": 94.8412,
+      "lat": 27.6121,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "94.8179_27.674",
+      "lon": 94.8179,
+      "lat": 27.674,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "94.8086_27.683",
+      "lon": 94.8086,
+      "lat": 27.683,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "94.8073_27.6849",
+      "lon": 94.8073,
+      "lat": 27.6849,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "94.8014_27.678",
+      "lon": 94.8014,
+      "lat": 27.678,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "94.8096_27.6823",
+      "lon": 94.8096,
+      "lat": 27.6823,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "94.8121_27.6803",
+      "lon": 94.8121,
+      "lat": 27.6803,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "94.8223_27.6748",
+      "lon": 94.8223,
+      "lat": 27.6748,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "94.8217_27.6765",
+      "lon": 94.8217,
+      "lat": 27.6765,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "94.8526_27.7042",
+      "lon": 94.8526,
+      "lat": 27.7042,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "94.8247_27.6755",
+      "lon": 94.8247,
+      "lat": 27.6755,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "94.8878_27.6602",
+      "lon": 94.8878,
+      "lat": 27.6602,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "94.8726_27.6984",
+      "lon": 94.8726,
+      "lat": 27.6984,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "94.8776_27.6886",
+      "lon": 94.8776,
+      "lat": 27.6886,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "94.8856_27.699",
+      "lon": 94.8856,
+      "lat": 27.699,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "94.8802_27.6974",
+      "lon": 94.8802,
+      "lat": 27.6974,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "94.8736_27.7132",
+      "lon": 94.8736,
+      "lat": 27.7132,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "94.8748_27.7088",
+      "lon": 94.8748,
+      "lat": 27.7088,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "94.8818_27.7171",
+      "lon": 94.8818,
+      "lat": 27.7171,
+      "type": "intersection",
+      "name": ""
+    },
+    {
+      "id": "95.166_27.766",
+      "lon": 95.166,
+      "lat": 27.766,
+      "type": "habitation",
+      "name": "Jonai Bazar"
+    },
+    {
+      "id": "95.172_27.781",
+      "lon": 95.172,
+      "lat": 27.781,
+      "type": "habitation",
+      "name": "Murkongselek Station Area"
+    },
+    {
+      "id": "95.14_27.745",
+      "lon": 95.14,
+      "lat": 27.745,
+      "type": "habitation",
+      "name": "Laimekuri"
+    },
+    {
+      "id": "95.185_27.795",
+      "lon": 95.185,
+      "lat": 27.795,
+      "type": "habitation",
+      "name": "Rayang"
+    },
+    {
+      "id": "95.19_27.75",
+      "lon": 95.19,
+      "lat": 27.75,
+      "type": "habitation",
+      "name": "Dekapam"
+    },
+    {
+      "id": "95.15_27.81",
+      "lon": 95.15,
+      "lat": 27.81,
+      "type": "habitation",
+      "name": "Bahir Sille"
+    },
+    {
+      "id": "95.12_27.73",
+      "lon": 95.12,
+      "lat": 27.73,
+      "type": "habitation",
+      "name": "Dimow"
+    },
+    {
+      "id": "94.98_27.68",
+      "lon": 94.98,
+      "lat": 27.68,
+      "type": "habitation",
+      "name": "Simen Chapori"
+    },
+    {
+      "id": "95.11_27.77",
+      "lon": 95.11,
+      "lat": 27.77,
+      "type": "habitation",
+      "name": "Ramdhan"
+    },
+    {
+      "id": "95.2_27.82",
+      "lon": 95.2,
+      "lat": 27.82,
+      "type": "habitation",
+      "name": "Oiramghat"
+    },
+    {
+      "id": "95.163_27.768",
+      "lon": 95.163,
+      "lat": 27.768,
+      "type": "shelter",
+      "name": "Jonai College Relief Camp"
+    },
+    {
+      "id": "95.183_27.796",
+      "lon": 95.183,
+      "lat": 27.796,
+      "type": "shelter",
+      "name": "Rayang ME School Shelter"
+    },
+    {
+      "id": "95.17_27.782",
+      "lon": 95.17,
+      "lat": 27.782,
+      "type": "shelter",
+      "name": "Murkongselek High School Camp"
+    },
+    {
+      "id": "95.2113_27.838",
+      "lon": 95.2113,
+      "lat": 27.838,
+      "type": "hospital",
+      "name": "Jonai CHC"
+    },
+    {
+      "id": "95.0566_27.7253",
+      "lon": 95.0566,
+      "lat": 27.7253,
+      "type": "hospital",
+      "name": "Ramdhan MPHC"
+    },
+    {
+      "id": "95.0095_27.7642",
+      "lon": 95.0095,
+      "lat": 27.7642,
+      "type": "hospital",
+      "name": "Telam MPHC"
+    },
+    {
+      "id": "94.8422_27.6089",
+      "lon": 94.8422,
+      "lat": 27.6089,
+      "type": "hospital",
+      "name": "Napam Kuli SC"
+    },
+    {
+      "id": "94.8967_27.6273",
+      "lon": 94.8967,
+      "lat": 27.6273,
+      "type": "hospital",
+      "name": "Lamajan SC"
+    },
+    {
+      "id": "95.2895_27.6642",
+      "lon": 95.2895,
+      "lat": 27.6642,
+      "type": "hospital",
+      "name": "Laika SC"
+    },
+    {
+      "id": "94.8689_27.6744",
+      "lon": 94.8689,
+      "lat": 27.6744,
+      "type": "hospital",
+      "name": "Rongpuria SC"
+    },
+    {
+      "id": "94.8551_27.706",
+      "lon": 94.8551,
+      "lat": 27.706,
+      "type": "hospital",
+      "name": "Dipa SC"
+    },
+    {
+      "id": "95.0528_27.7501",
+      "lon": 95.0528,
+      "lat": 27.7501,
+      "type": "hospital",
+      "name": "Boikunthapur SC"
+    },
+    {
+      "id": "95.0721_27.7553",
+      "lon": 95.0721,
+      "lat": 27.7553,
+      "type": "hospital",
+      "name": "Laimekuri SC"
+    },
+    {
+      "id": "95.1966_27.8167",
+      "lon": 95.1966,
+      "lat": 27.8167,
+      "type": "hospital",
+      "name": "Rayeng Mising SC"
+    },
+    {
+      "id": "95.0425_27.8008",
+      "lon": 95.0425,
+      "lat": 27.8008,
+      "type": "police",
+      "name": "Police Station"
+    },
+    {
+      "id": "94.9533_27.8525",
+      "lon": 94.9533,
+      "lat": 27.8525,
+      "type": "police",
+      "name": "Police Station"
+    },
+    {
+      "id": "94.8866_27.719",
+      "lon": 94.8866,
+      "lat": 27.719,
+      "type": "police",
+      "name": "Police Station"
+    },
+    {
+      "id": "95.2299_27.8227",
+      "lon": 95.2299,
+      "lat": 27.8227,
+      "type": "police",
+      "name": "Police Station"
+    },
+    {
+      "id": "95.16_27.77",
+      "lon": 95.16,
+      "lat": 27.77,
+      "type": "base",
+      "name": "Jonai Response Base"
+    }
+  ],
+  "edges": [
+    {
+      "id": "1582410",
+      "source": "95.0068_27.78",
+      "target": "94.9835_27.7765",
+      "distance_km": 2.3250709381388117,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1550256",
+      "source": "95.0068_27.78",
+      "target": "94.9772_27.796",
+      "distance_km": 3.412311460865326,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1574860",
+      "source": "95.0068_27.78",
+      "target": "95.0089_27.777",
+      "distance_km": 0.39237973948909516,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_police_Police Station_1",
+      "source": "94.9835_27.7765",
+      "target": "94.9533_27.8525",
+      "distance_km": 8.956576230379744,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_police_Police Station_0",
+      "source": "94.9772_27.796",
+      "target": "94.9533_27.8525",
+      "distance_km": 6.706715266361778,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1579906",
+      "source": "94.9294_27.7511",
+      "target": "95.0039_27.7623",
+      "distance_km": 7.435838475337227,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1571403",
+      "source": "94.9294_27.7511",
+      "target": "94.9337_27.7222",
+      "distance_km": 3.2412796131945223,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1576721",
+      "source": "94.9294_27.7511",
+      "target": "94.8904_27.7216",
+      "distance_km": 5.049033931978406,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1548032",
+      "source": "95.0039_27.7623",
+      "target": "95.0059_27.7626",
+      "distance_km": 0.19959709422394536,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1576722",
+      "source": "95.0039_27.7623",
+      "target": "95.0045_27.765",
+      "distance_km": 0.30597567648398116,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1548712",
+      "source": "95.0045_27.765",
+      "target": "95.0068_27.7762",
+      "distance_km": 1.2657752587134992,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1574143",
+      "source": "95.0045_27.765",
+      "target": "95.0059_27.7626",
+      "distance_km": 0.3003228406115324,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1580350",
+      "source": "95.0045_27.765",
+      "target": "95.0052_27.7679",
+      "distance_km": 0.32973849299363706,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1571790",
+      "source": "95.0068_27.7762",
+      "target": "95.0052_27.7679",
+      "distance_km": 0.9362466752222114,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1521975",
+      "source": "95.0068_27.7762",
+      "target": "95.0083_27.7767",
+      "distance_km": 0.15769897729077426,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1553235",
+      "source": "95.0059_27.7626",
+      "target": "95.0106_27.7642",
+      "distance_km": 0.4954941071450527,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hosp_Telam MPHC_1",
+      "source": "95.0059_27.7626",
+      "target": "95.0095_27.7642",
+      "distance_km": 0.39625627282826875,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1578788",
+      "source": "95.0089_27.7695",
+      "target": "95.0174_27.7722",
+      "distance_km": 0.8885494125242154,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1523965",
+      "source": "95.0089_27.7695",
+      "target": "95.0052_27.7679",
+      "distance_km": 0.4051886917199295,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1525259",
+      "source": "95.0089_27.7695",
+      "target": "95.0106_27.7642",
+      "distance_km": 0.6126099426379695,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1549595",
+      "source": "95.0089_27.7695",
+      "target": "95.0083_27.7767",
+      "distance_km": 0.8027768033800932,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1563094",
+      "source": "95.0106_27.7642",
+      "target": "95.0531_27.7496",
+      "distance_km": 4.4860522379382,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hosp_Telam MPHC_0",
+      "source": "95.0106_27.7642",
+      "target": "95.0095_27.7642",
+      "distance_km": 0.10662308163052457,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1559608",
+      "source": "95.0083_27.7767",
+      "target": "95.0089_27.777",
+      "distance_km": 0.06780283732749319,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1576249",
+      "source": "95.0089_27.777",
+      "target": "95.0449_27.7881",
+      "distance_km": 3.7504751804361884,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1578412",
+      "source": "95.0449_27.7881",
+      "target": "95.0422_27.7997",
+      "distance_km": 1.3169204617883912,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1574658",
+      "source": "95.0449_27.7881",
+      "target": "95.0544_27.791",
+      "distance_km": 0.9885892872903751,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1470036",
+      "source": "95.0449_27.7881",
+      "target": "95.0551_27.7531",
+      "distance_km": 4.0191292219860895,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1552383",
+      "source": "95.0422_27.8",
+      "target": "95.0422_27.7997",
+      "distance_km": 0.03335847799328987,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_police_Police Station_0_dup1",
+      "source": "95.0422_27.8",
+      "target": "95.0425_27.8008",
+      "distance_km": 0.0968943031389251,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1574905",
+      "source": "95.0422_27.7997",
+      "target": "95.0544_27.791",
+      "distance_km": 1.5414232432202157,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_police_Police Station_1_dup1",
+      "source": "95.0422_27.7997",
+      "target": "95.0425_27.8008",
+      "distance_km": 0.1290686781170935,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1570182",
+      "source": "95.0544_27.791",
+      "target": "95.0633_27.7686",
+      "distance_km": 2.640179596919566,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1567408",
+      "source": "95.0544_27.791",
+      "target": "95.2211_27.8416",
+      "distance_km": 17.332923680346028,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1563970",
+      "source": "95.0633_27.7686",
+      "target": "95.0718_27.7543",
+      "distance_km": 1.7966310560667966,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1557342",
+      "source": "95.0633_27.7686",
+      "target": "95.0615_27.7599",
+      "distance_km": 0.9834744264620797,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1565333",
+      "source": "95.0551_27.7531",
+      "target": "95.0615_27.7599",
+      "distance_km": 0.9840353326560181,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1516010",
+      "source": "95.0551_27.7531",
+      "target": "95.0531_27.7496",
+      "distance_km": 0.43611572778991614,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hosp_Boikunthapur SC_1",
+      "source": "95.0551_27.7531",
+      "target": "95.0528_27.7501",
+      "distance_km": 0.40616012338427226,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1551609",
+      "source": "95.0531_27.7496",
+      "target": "95.0696_27.7463",
+      "distance_km": 1.6646778377087745,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1552985",
+      "source": "95.0531_27.7496",
+      "target": "95.055_27.7232",
+      "distance_km": 2.9414958473518906,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hosp_Boikunthapur SC_0",
+      "source": "95.0531_27.7496",
+      "target": "95.0528_27.7501",
+      "distance_km": 0.05973323184241446,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1572676",
+      "source": "95.0615_27.7599",
+      "target": "95.0659_27.7562",
+      "distance_km": 0.5972582744306588,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1579020",
+      "source": "95.0682_27.7547",
+      "target": "95.0696_27.7463",
+      "distance_km": 0.9441429151835132,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1577104",
+      "source": "95.0682_27.7547",
+      "target": "95.0718_27.7543",
+      "distance_km": 0.3570287720473688,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1536575",
+      "source": "95.0682_27.7547",
+      "target": "95.0659_27.7562",
+      "distance_km": 0.28114356417812336,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hosp_Laimekuri SC_1",
+      "source": "95.0682_27.7547",
+      "target": "95.0721_27.7553",
+      "distance_km": 0.389203201453724,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1539631",
+      "source": "95.0696_27.7463",
+      "target": "95.1046_27.7424",
+      "distance_km": 3.4715856741030224,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1546969",
+      "source": "95.0696_27.7463",
+      "target": "95.0751_27.7471",
+      "distance_km": 0.5485115118778603,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hosp_Ramdhan MPHC_1",
+      "source": "95.0696_27.7463",
+      "target": "95.0566_27.7253",
+      "distance_km": 2.6642966281925586,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1545254",
+      "source": "95.0718_27.7543",
+      "target": "95.076_27.75",
+      "distance_km": 0.6320055670588065,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hosp_Laimekuri SC_0",
+      "source": "95.0718_27.7543",
+      "target": "95.0721_27.7553",
+      "distance_km": 0.1132208769678638,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1495735",
+      "source": "95.076_27.75",
+      "target": "95.0764_27.75",
+      "distance_km": 0.03936245417290709,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1556517",
+      "source": "95.076_27.75",
+      "target": "95.0751_27.7471",
+      "distance_km": 0.3344068211509794,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1574693",
+      "source": "95.102_27.7531",
+      "target": "95.0961_27.7611",
+      "distance_km": 1.0622447630130152,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1578776",
+      "source": "95.102_27.7531",
+      "target": "95.1198_27.754",
+      "distance_km": 1.754428662982095,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1566894",
+      "source": "95.102_27.7531",
+      "target": "95.1046_27.7424",
+      "distance_km": 1.2169860396389787,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1570718",
+      "source": "95.102_27.7531",
+      "target": "95.0751_27.7471",
+      "distance_km": 2.7299035342743667,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hab_Ramdhan_0",
+      "source": "95.0961_27.7611",
+      "target": "95.11_27.77",
+      "distance_km": 1.6881479258074104,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1571947",
+      "source": "95.1198_27.754",
+      "target": "95.1318_27.757",
+      "distance_km": 1.227029119442338,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1581713",
+      "source": "95.1198_27.754",
+      "target": "95.1196_27.741",
+      "distance_km": 1.4456680281871834,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hab_Ramdhan_1",
+      "source": "95.1198_27.754",
+      "target": "95.11_27.77",
+      "distance_km": 2.0236323342755718,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1553493",
+      "source": "95.2182_27.8497",
+      "target": "95.2211_27.8416",
+      "distance_km": 0.9447326344581357,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1578006",
+      "source": "95.2182_27.8497",
+      "target": "95.1972_27.8516",
+      "distance_km": 2.0753971115583973,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1571206",
+      "source": "95.2211_27.8416",
+      "target": "95.2226_27.8354",
+      "distance_km": 0.7050086298271633,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1558035",
+      "source": "95.2211_27.8416",
+      "target": "95.2504_27.8511",
+      "distance_km": 3.068316984515913,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1571145",
+      "source": "95.2119_27.8208",
+      "target": "95.2188_27.8361",
+      "distance_km": 1.8315952114048388,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hab_Oiramghat_0",
+      "source": "95.2119_27.8208",
+      "target": "95.2_27.82",
+      "distance_km": 1.1736511329140198,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hosp_Rayeng Mising SC_1",
+      "source": "95.2119_27.8208",
+      "target": "95.1966_27.8167",
+      "distance_km": 1.5738341223770291,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1542832",
+      "source": "95.2188_27.8361",
+      "target": "95.215_27.8364",
+      "distance_km": 0.3751328631845337,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1568372",
+      "source": "95.2188_27.8361",
+      "target": "95.2226_27.8354",
+      "distance_km": 0.3816695906218277,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1531211",
+      "source": "95.2133_27.8364",
+      "target": "95.215_27.8364",
+      "distance_km": 0.16715751544387045,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hosp_Jonai CHC_0",
+      "source": "95.2133_27.8364",
+      "target": "95.2113_27.838",
+      "distance_km": 0.2651731992851059,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1580666",
+      "source": "95.215_27.8364",
+      "target": "95.2146_27.839",
+      "distance_km": 0.29176986106973457,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hosp_Jonai CHC_1",
+      "source": "95.2146_27.839",
+      "target": "95.2113_27.838",
+      "distance_km": 0.34519631239629817,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1492190",
+      "source": "95.2226_27.8354",
+      "target": "95.2259_27.8283",
+      "distance_km": 0.8535704448834547,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1570993",
+      "source": "95.2259_27.8283",
+      "target": "95.2235_27.8246",
+      "distance_km": 0.4743074340798571,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1578201",
+      "source": "95.2259_27.8283",
+      "target": "95.2276_27.8261",
+      "distance_km": 0.29629316806618333,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1582552",
+      "source": "95.2235_27.8246",
+      "target": "95.2256_27.8234",
+      "distance_km": 0.24586975044941153,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1542975",
+      "source": "95.2235_27.8246",
+      "target": "95.2107_27.7993",
+      "distance_km": 3.08205357774839,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1420670",
+      "source": "95.2256_27.8234",
+      "target": "95.2302_27.8224",
+      "distance_km": 0.46583071525204756,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1560581",
+      "source": "95.2256_27.8234",
+      "target": "95.2276_27.8261",
+      "distance_km": 0.3589117985324382,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1569183",
+      "source": "95.2107_27.7993",
+      "target": "95.2025_27.7989",
+      "distance_km": 0.807791630660853,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1458501",
+      "source": "95.2107_27.7993",
+      "target": "95.2497_27.7992",
+      "distance_km": 3.836118323508864,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1573461",
+      "source": "95.1979_27.8093",
+      "target": "95.2025_27.7989",
+      "distance_km": 1.2417845034134525,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hab_Oiramghat_1",
+      "source": "95.1979_27.8093",
+      "target": "95.2_27.82",
+      "distance_km": 1.2075780381743384,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hosp_Rayeng Mising SC_0",
+      "source": "95.1979_27.8093",
+      "target": "95.1966_27.8167",
+      "distance_km": 0.8272228686446595,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1575736",
+      "source": "95.2025_27.7989",
+      "target": "95.1811_27.794",
+      "distance_km": 2.1743642760976614,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1578658",
+      "source": "95.1604_27.7688",
+      "target": "95.1758_27.7918",
+      "distance_km": 2.9725485171010995,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1544848",
+      "source": "95.1604_27.7688",
+      "target": "95.1523_27.7626",
+      "distance_km": 1.0537802890451686,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1578135",
+      "source": "95.1604_27.7688",
+      "target": "95.155_27.7458",
+      "distance_km": 2.6120990960588264,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hab_Jonai Bazar_0",
+      "source": "95.1604_27.7688",
+      "target": "95.166_27.766",
+      "distance_km": 0.6328681445785407,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_shelter_Jonai College Relief Camp_0",
+      "source": "95.1604_27.7688",
+      "target": "95.163_27.768",
+      "distance_km": 0.27083814687506497,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_base_connect_0",
+      "source": "95.1604_27.7688",
+      "target": "95.16_27.77",
+      "distance_km": 0.13911671180835697,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1553330",
+      "source": "95.1758_27.7918",
+      "target": "95.1811_27.794",
+      "distance_km": 0.5758870318125678,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1581524",
+      "source": "95.1758_27.7918",
+      "target": "95.1825_27.7872",
+      "distance_km": 0.8342767300497451,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hab_Murkongselek Station Area_1",
+      "source": "95.1758_27.7918",
+      "target": "95.172_27.781",
+      "distance_km": 1.2577413887534246,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hab_Bahir Sille_0",
+      "source": "95.1758_27.7918",
+      "target": "95.15_27.81",
+      "distance_km": 3.245832440748648,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_shelter_Rayang ME School Shelter_1",
+      "source": "95.1758_27.7918",
+      "target": "95.183_27.796",
+      "distance_km": 0.8483560673185094,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_shelter_Murkongselek High School Camp_0",
+      "source": "95.1758_27.7918",
+      "target": "95.17_27.782",
+      "distance_km": 1.2300445416506154,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1554946",
+      "source": "95.1318_27.757",
+      "target": "95.1523_27.7626",
+      "distance_km": 2.1110697659876356,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1571329",
+      "source": "95.1318_27.757",
+      "target": "95.1344_27.7406",
+      "distance_km": 1.8414583861685903,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1519709",
+      "source": "95.1523_27.7626",
+      "target": "95.155_27.7458",
+      "distance_km": 1.8868737520036056,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hab_Jonai Bazar_1",
+      "source": "95.1523_27.7626",
+      "target": "95.166_27.766",
+      "distance_km": 1.4000001248099252,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_shelter_Jonai College Relief Camp_1",
+      "source": "95.1523_27.7626",
+      "target": "95.163_27.768",
+      "distance_km": 1.2119926897407722,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_base_connect_1",
+      "source": "95.1523_27.7626",
+      "target": "95.16_27.77",
+      "distance_km": 1.118502737861288,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1565191",
+      "source": "95.155_27.7458",
+      "target": "95.1344_27.7406",
+      "distance_km": 2.1081384445689513,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hab_Laimekuri_1",
+      "source": "95.155_27.7458",
+      "target": "95.14_27.745",
+      "distance_km": 1.4788322762068042,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hab_Dekapam_1",
+      "source": "95.155_27.7458",
+      "target": "95.19_27.75",
+      "distance_km": 3.475799050336502,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1569936",
+      "source": "95.1803_27.767",
+      "target": "95.1825_27.7872",
+      "distance_km": 2.2565415684427492,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hab_Dekapam_0",
+      "source": "95.1803_27.767",
+      "target": "95.19_27.75",
+      "distance_km": 2.117614107091226,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_base_connect_2",
+      "source": "95.1803_27.767",
+      "target": "95.16_27.77",
+      "distance_km": 2.0249707183445866,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1559986",
+      "source": "95.1825_27.7872",
+      "target": "95.1811_27.794",
+      "distance_km": 0.7685647654677924,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hab_Murkongselek Station Area_0",
+      "source": "95.1825_27.7872",
+      "target": "95.172_27.781",
+      "distance_km": 1.2418738343056537,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hab_Rayang_1",
+      "source": "95.1825_27.7872",
+      "target": "95.185_27.795",
+      "distance_km": 0.9015112671466787,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_shelter_Murkongselek High School Camp_1",
+      "source": "95.1825_27.7872",
+      "target": "95.17_27.782",
+      "distance_km": 1.3588442824149123,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hab_Rayang_0",
+      "source": "95.1811_27.794",
+      "target": "95.185_27.795",
+      "distance_km": 0.39941704731616695,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hab_Bahir Sille_1",
+      "source": "95.1811_27.794",
+      "target": "95.15_27.81",
+      "distance_km": 3.538721538815993,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_shelter_Rayang ME School Shelter_0",
+      "source": "95.1811_27.794",
+      "target": "95.183_27.796",
+      "distance_km": 0.2904939603791976,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1578771",
+      "source": "95.2721_27.7919",
+      "target": "95.2905_27.7803",
+      "distance_km": 2.222634364163932,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1582412",
+      "source": "95.2721_27.7919",
+      "target": "95.2767_27.8081",
+      "distance_km": 1.8573126313674333,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1542407",
+      "source": "95.2721_27.7919",
+      "target": "95.2497_27.7992",
+      "distance_km": 2.3481385033308975,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hosp_Laika SC_1",
+      "source": "95.2721_27.7919",
+      "target": "95.2895_27.6642",
+      "distance_km": 14.302297926934335,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hosp_Laika SC_0",
+      "source": "95.2905_27.7803",
+      "target": "95.2895_27.6642",
+      "distance_km": 12.910119125259396,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1580382",
+      "source": "95.2767_27.8081",
+      "target": "95.2738_27.8213",
+      "distance_km": 1.4952261739924664,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1551374",
+      "source": "95.2497_27.7992",
+      "target": "95.2302_27.8224",
+      "distance_km": 3.2145147378784076,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1524295",
+      "source": "95.2302_27.8224",
+      "target": "95.2288_27.8242",
+      "distance_km": 0.2429299923571074,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_police_Police Station_0_dup2",
+      "source": "95.2302_27.8224",
+      "target": "95.2299_27.8227",
+      "distance_km": 0.042918061480839445,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1563091",
+      "source": "95.2288_27.8242",
+      "target": "95.2343_27.8279",
+      "distance_km": 0.6795527108838425,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1546766",
+      "source": "95.2288_27.8242",
+      "target": "95.2276_27.8261",
+      "distance_km": 0.24199282528324487,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_police_Police Station_1_dup2",
+      "source": "95.2288_27.8242",
+      "target": "95.2299_27.8227",
+      "distance_km": 0.20004509562366782,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1500616",
+      "source": "95.2504_27.8511",
+      "target": "95.2574_27.8533",
+      "distance_km": 0.7303808421903268,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1568001",
+      "source": "95.2504_27.8511",
+      "target": "95.2589_27.8407",
+      "distance_km": 1.4267944808766815,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1579784",
+      "source": "95.2574_27.8533",
+      "target": "95.2593_27.8539",
+      "distance_km": 0.19835059142830722,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1531103",
+      "source": "95.2574_27.8533",
+      "target": "95.2538_27.8691",
+      "distance_km": 1.7921695674025495,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1576361",
+      "source": "95.2651_27.8358",
+      "target": "95.2625_27.8387",
+      "distance_km": 0.4115107841504956,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1574902",
+      "source": "95.2651_27.8358",
+      "target": "95.2738_27.8277",
+      "distance_km": 1.2422098575533347,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1549203",
+      "source": "95.2625_27.8387",
+      "target": "95.2589_27.8407",
+      "distance_km": 0.41803337752176206,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1470816",
+      "source": "95.2589_27.8407",
+      "target": "95.2593_27.8539",
+      "distance_km": 1.4682998002734238,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1560470",
+      "source": "95.2593_27.8539",
+      "target": "95.291_27.8637",
+      "distance_km": 3.301381537439226,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1551994",
+      "source": "95.2738_27.8277",
+      "target": "95.2738_27.8213",
+      "distance_km": 0.7116475305250975,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1577715",
+      "source": "95.2988_27.8499",
+      "target": "95.291_27.8637",
+      "distance_km": 1.7154191526739033,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1542781",
+      "source": "95.291_27.8637",
+      "target": "95.2896_27.8857",
+      "distance_km": 2.4501558154414442,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1576313",
+      "source": "95.2896_27.8857",
+      "target": "95.289_27.8864",
+      "distance_km": 0.09765216010255665,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1511219",
+      "source": "95.2896_27.8857",
+      "target": "95.2953_27.8909",
+      "distance_km": 0.8050814553129396,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1567239",
+      "source": "95.289_27.8864",
+      "target": "95.27_27.8782",
+      "distance_km": 2.0781503790143647,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1538093",
+      "source": "95.2971_27.8937",
+      "target": "95.2961_27.8918",
+      "distance_km": 0.23300966088065406,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1511087",
+      "source": "95.1344_27.7406",
+      "target": "95.1325_27.7311",
+      "distance_km": 1.07277519335957,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hab_Laimekuri_0",
+      "source": "95.1344_27.7406",
+      "target": "95.14_27.745",
+      "distance_km": 0.7369505922036012,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hab_Dimow_1",
+      "source": "95.1325_27.7311",
+      "target": "95.12_27.73",
+      "distance_km": 1.236361533392112,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1551030",
+      "source": "95.1196_27.741",
+      "target": "95.1046_27.7424",
+      "distance_km": 1.484390051607152,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hab_Dimow_0",
+      "source": "95.1196_27.741",
+      "target": "95.12_27.73",
+      "distance_km": 1.2237775665567863,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hosp_Ramdhan MPHC_0",
+      "source": "95.055_27.7232",
+      "target": "95.0566_27.7253",
+      "distance_km": 0.2800885137118116,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1579156",
+      "source": "94.9337_27.7222",
+      "target": "94.9625_27.6863",
+      "distance_km": 4.8963350695539365,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hab_Simen Chapori_1",
+      "source": "94.9337_27.7222",
+      "target": "94.98_27.68",
+      "distance_km": 6.541902347605637,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hab_Simen Chapori_0",
+      "source": "94.9625_27.6863",
+      "target": "94.98_27.68",
+      "distance_km": 1.8601159572202295,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1507730",
+      "source": "94.8904_27.7216",
+      "target": "94.9033_27.6909",
+      "distance_km": 3.6422534135513094,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1573425",
+      "source": "94.8904_27.7216",
+      "target": "94.8818_27.7171",
+      "distance_km": 0.9833573908206102,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_police_Police Station_0_dup3",
+      "source": "94.8904_27.7216",
+      "target": "94.8866_27.719",
+      "distance_km": 0.4733371476660276,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1580689",
+      "source": "94.9033_27.6909",
+      "target": "94.9023_27.6775",
+      "distance_km": 1.4932619566780179,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1557181",
+      "source": "94.9023_27.6775",
+      "target": "94.8887_27.6842",
+      "distance_km": 1.5324543466547706,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1519773",
+      "source": "94.9023_27.6775",
+      "target": "94.8928_27.6709",
+      "distance_km": 1.1890184823146988,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1578599",
+      "source": "94.8887_27.6842",
+      "target": "94.8928_27.6709",
+      "distance_km": 1.5330112963353415,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1576601",
+      "source": "94.8887_27.6842",
+      "target": "94.8856_27.699",
+      "distance_km": 1.673750155388116,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hosp_Rongpuria SC_1",
+      "source": "94.8887_27.6842",
+      "target": "94.8689_27.6744",
+      "distance_km": 2.2344890896847978,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1568193",
+      "source": "94.8928_27.6709",
+      "target": "94.8878_27.6602",
+      "distance_km": 1.2876565254717691,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1536977",
+      "source": "94.8875_27.6481",
+      "target": "94.8928_27.6303",
+      "distance_km": 2.046968082156891,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1513535",
+      "source": "94.8875_27.6481",
+      "target": "94.8878_27.6602",
+      "distance_km": 1.3457830245467446,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1573449",
+      "source": "94.8875_27.6481",
+      "target": "94.8726_27.6984",
+      "distance_km": 5.782364735492026,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hosp_Lamajan SC_1",
+      "source": "94.8875_27.6481",
+      "target": "94.8967_27.6273",
+      "distance_km": 2.4856995681530103,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hosp_Napam Kuli SC_1",
+      "source": "94.8928_27.6303",
+      "target": "94.8422_27.6089",
+      "distance_km": 5.52034153484432,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hosp_Lamajan SC_0",
+      "source": "94.8928_27.6303",
+      "target": "94.8967_27.6273",
+      "distance_km": 0.5075402758198618,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1534762",
+      "source": "94.8412_27.6121",
+      "target": "94.8179_27.674",
+      "distance_km": 7.255532561107933,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hosp_Napam Kuli SC_0",
+      "source": "94.8412_27.6121",
+      "target": "94.8422_27.6089",
+      "distance_km": 0.36827808829802156,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1528702",
+      "source": "94.8179_27.674",
+      "target": "94.8121_27.6803",
+      "distance_km": 0.9038456326643274,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1502846",
+      "source": "94.8179_27.674",
+      "target": "94.8223_27.6748",
+      "distance_km": 0.44232449416281494,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1519782",
+      "source": "94.8086_27.683",
+      "target": "94.8073_27.6849",
+      "distance_km": 0.24702341674042733,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1563559",
+      "source": "94.8086_27.683",
+      "target": "94.8096_27.6823",
+      "distance_km": 0.12551592880620407,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1520435",
+      "source": "94.8014_27.678",
+      "target": "94.8096_27.6823",
+      "distance_km": 0.9383960965262803,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1572043",
+      "source": "94.8096_27.6823",
+      "target": "94.8121_27.6803",
+      "distance_km": 0.33174853839913915,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1540386",
+      "source": "94.8096_27.6823",
+      "target": "94.8526_27.7042",
+      "distance_km": 4.884053819858765,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1472662",
+      "source": "94.8121_27.6803",
+      "target": "94.8217_27.6765",
+      "distance_km": 1.0354560343592014,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1405224",
+      "source": "94.8223_27.6748",
+      "target": "94.8217_27.6765",
+      "distance_km": 0.19804992573505184,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1574111",
+      "source": "94.8223_27.6748",
+      "target": "94.8247_27.6755",
+      "distance_km": 0.248824475924653,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1502848",
+      "source": "94.8217_27.6765",
+      "target": "94.8247_27.6755",
+      "distance_km": 0.3156525913757169,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1510663",
+      "source": "94.8526_27.7042",
+      "target": "94.8247_27.6755",
+      "distance_km": 4.2107745088058826,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1582290",
+      "source": "94.8526_27.7042",
+      "target": "94.8736_27.7132",
+      "distance_km": 2.296799560076321,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hosp_Dipa SC_0",
+      "source": "94.8526_27.7042",
+      "target": "94.8551_27.706",
+      "distance_km": 0.3135157136952135,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1509414",
+      "source": "94.8878_27.6602",
+      "target": "94.8776_27.6886",
+      "distance_km": 3.313827988832115,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1579246",
+      "source": "94.8726_27.6984",
+      "target": "94.8776_27.6886",
+      "distance_km": 1.1957481834372787,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1537005",
+      "source": "94.8726_27.6984",
+      "target": "94.8748_27.7088",
+      "distance_km": 1.176534447665313,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hosp_Dipa SC_1",
+      "source": "94.8726_27.6984",
+      "target": "94.8551_27.706",
+      "distance_km": 1.9210498680571568,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1582050",
+      "source": "94.8776_27.6886",
+      "target": "94.8802_27.6974",
+      "distance_km": 1.0114460179211917,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_hosp_Rongpuria SC_0",
+      "source": "94.8776_27.6886",
+      "target": "94.8689_27.6744",
+      "distance_km": 1.7980540855333325,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1534478",
+      "source": "94.8856_27.699",
+      "target": "94.8802_27.6974",
+      "distance_km": 0.5606244404211485,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1519354",
+      "source": "94.8856_27.699",
+      "target": "94.8818_27.7171",
+      "distance_km": 2.047098785316414,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1575507",
+      "source": "94.8802_27.6974",
+      "target": "94.8748_27.7088",
+      "distance_km": 1.3745863714325108,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1535930",
+      "source": "94.8736_27.7132",
+      "target": "94.8748_27.7088",
+      "distance_km": 0.5033166826090829,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "1581591",
+      "source": "94.8736_27.7132",
+      "target": "94.8818_27.7171",
+      "distance_km": 0.916304686345454,
+      "risk": "Low",
+      "status": "Open"
+    },
+    {
+      "id": "edge_police_Police Station_1_dup3",
+      "source": "94.8818_27.7171",
+      "target": "94.8866_27.719",
+      "distance_km": 0.5175678598284703,
+      "risk": "Low",
+      "status": "Open"
+    }
+  ]
+}

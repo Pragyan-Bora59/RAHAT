@@ -1,0 +1,132 @@
+[
+  {
+    "habitation": "Jonai Bazar",
+    "hazard_class": 4,
+    "affected_population": 4050,
+    "accessibility": "Poor",
+    "needs": {
+      "rescue": "Critical",
+      "water_food": "High",
+      "medical": "High",
+      "relocation": "Immediate"
+    },
+    "priority_score": 44.05
+  },
+  {
+    "habitation": "Simen Chapori",
+    "hazard_class": 4,
+    "affected_population": 3420,
+    "accessibility": "Poor",
+    "needs": {
+      "rescue": "Critical",
+      "water_food": "High",
+      "medical": "High",
+      "relocation": "Immediate"
+    },
+    "priority_score": 43.42
+  },
+  {
+    "habitation": "Murkongselek Station Area",
+    "hazard_class": 4,
+    "affected_population": 2880,
+    "accessibility": "Poor",
+    "needs": {
+      "rescue": "Critical",
+      "water_food": "High",
+      "medical": "High",
+      "relocation": "Immediate"
+    },
+    "priority_score": 42.88
+  },
+  {
+    "habitation": "Dimow",
+    "hazard_class": 4,
+    "affected_population": 1890,
+    "accessibility": "Poor",
+    "needs": {
+      "rescue": "Critical",
+      "water_food": "High",
+      "medical": "High",
+      "relocation": "Immediate"
+    },
+    "priority_score": 41.89
+  },
+  {
+    "habitation": "Laimekuri",
+    "hazard_class": 4,
+    "affected_population": 1620,
+    "accessibility": "Poor",
+    "needs": {
+      "rescue": "Critical",
+      "water_food": "High",
+      "medical": "High",
+      "relocation": "Immediate"
+    },
+    "priority_score": 41.62
+  },
+  {
+    "habitation": "Rayang",
+    "hazard_class": 4,
+    "affected_population": 1350,
+    "accessibility": "Poor",
+    "needs": {
+      "rescue": "Critical",
+      "water_food": "High",
+      "medical": "High",
+      "relocation": "Immediate"
+    },
+    "priority_score": 41.35
+  },
+  {
+    "habitation": "Dekapam",
+    "hazard_class": 4,
+    "affected_population": 1080,
+    "accessibility": "Poor",
+    "needs": {
+      "rescue": "Critical",
+      "water_food": "High",
+      "medical": "High",
+      "relocation": "Immediate"
+    },
+    "priority_score": 41.08
+  },
+  {
+    "habitation": "Ramdhan",
+    "hazard_class": 4,
+    "affected_population": 990,
+    "accessibility": "Poor",
+    "needs": {
+      "rescue": "Critical",
+      "water_food": "High",
+      "medical": "High",
+      "relocation": "Immediate"
+    },
+    "priority_score": 40.99
+  },
+  {
+    "habitation": "Bahir Sille",
+    "hazard_class": 4,
+    "affected_population": 855,
+    "accessibility": "Poor",
+    "needs": {
+      "rescue": "Critical",
+      "water_food": "High",
+      "medical": "High",
+      "relocation": "Immediate"
+    },
+    "priority_score": 40.85
+  },
+  {
+    "habitation": "Oiramghat",
+    "hazard_class": 4,
+    "affected_population": 765,
+    "accessibility": "Poor",
+    "needs": {
+      "rescue": "Critical",
+      "water_food": "High",
+      "medical": "High",
+      "relocation": "Immediate"
+    },
+    "priority_score": 40.77
+  }
+]

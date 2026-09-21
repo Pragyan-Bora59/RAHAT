@@ -1,0 +1,500 @@
+{
+  "baseline": {
+    "allocations": [
+      {
+        "source": "Jonai CHC",
+        "destination": "Jonai Bazar",
+        "resource_type": "medical_teams",
+        "quantity": 6,
+        "distance_km": 12.62,
+        "route_edges": [
+          "edge_hosp_Jonai CHC_0",
+          "1531211",
+          "1542832",
+          "1571145",
+          "edge_hab_Oiramghat_0",
+          "edge_hab_Oiramghat_1",
+          "1573461",
+          "1575736",
+          "1553330",
+          "1578658",
+          "edge_hab_Jonai Bazar_0"
+        ]
+      },
+      {
+        "source": "Jonai Response Base",
+        "destination": "Jonai Bazar",
+        "resource_type": "boats",
+        "quantity": 36,
+        "distance_km": 0.77,
+        "route_edges": [
+          "edge_base_connect_0",
+          "edge_hab_Jonai Bazar_0"
+        ]
+      },
+      {
+        "source": "Police Station",
+        "destination": "Jonai Bazar",
+        "resource_type": "boats",
+        "quantity": 24,
+        "distance_km": 11.0,
+        "route_edges": [
+          "edge_police_Police Station_0_dup2",
+          "1420670",
+          "1582552",
+          "1542975",
+          "1569183",
+          "1575736",
+          "1553330",
+          "1578658",
+          "edge_hab_Jonai Bazar_0"
+        ]
+      },
+      {
+        "source": "Police Station",
+        "destination": "Simen Chapori",
+        "resource_type": "boats",
+        "quantity": 16,
+        "distance_km": 43.39,
+        "route_edges": [
+          "edge_police_Police Station_1_dup2",
+          "1546766",
+          "1578201",
+          "1492190",
+          "1571206",
+          "1567408",
+          "1574658",
+          "1576249",
+          "1559608",
+          "1521975",
+          "1548712",
+          "1576722",
+          "1579906",
+          "1571403",
+          "edge_hab_Simen Chapori_1"
+        ]
+      }
+    ],
+    "destination_summary": [
+      {
+        "destination": "Jonai Bazar",
+        "priority_score": 1214.04,
+        "fulfillment_percent": 0,
+        "demand": {
+          "food_kg": 2025.0,
+          "water_liters": 12150.0,
+          "medical_teams": 9,
+          "boats": 60
+        },
+        "allocated": {
+          "food_kg": 0,
+          "water_liters": 0,
+          "medical_teams": 6,
+          "boats": 60
+        }
+      },
+      {
+        "destination": "Simen Chapori",
+        "priority_score": 1085.61,
+        "fulfillment_percent": 0,
+        "demand": {
+          "food_kg": 1710.0,
+          "water_liters": 10260.0,
+          "medical_teams": 7,
+          "boats": 51
+        },
+        "allocated": {
+          "food_kg": 0,
+          "water_liters": 0,
+          "medical_teams": 0,
+          "boats": 16
+        }
+      },
+      {
+        "destination": "Murkongselek Station Area",
+        "priority_score": 928.74,
+        "fulfillment_percent": 0,
+        "demand": {
+          "food_kg": 1440.0,
+          "water_liters": 8640.0,
+          "medical_teams": 6,
+          "boats": 43
+        },
+        "allocated": {
+          "food_kg": 0,
+          "water_liters": 0,
+          "medical_teams": 0,
+          "boats": 0
+        }
+      },
+      {
+        "destination": "Dimow",
+        "priority_score": 686.75,
+        "fulfillment_percent": 0,
+        "demand": {
+          "food_kg": 945.0,
+          "water_liters": 5670.0,
+          "medical_teams": 4,
+          "boats": 28
+        },
+        "allocated": {
+          "food_kg": 0,
+          "water_liters": 0,
+          "medical_teams": 0,
+          "boats": 0
+        }
+      },
+      {
+        "destination": "Laimekuri",
+        "priority_score": 613.46,
+        "fulfillment_percent": 0,
+        "demand": {
+          "food_kg": 810.0,
+          "water_liters": 4860.0,
+          "medical_teams": 4,
+          "boats": 24
+        },
+        "allocated": {
+          "food_kg": 0,
+          "water_liters": 0,
+          "medical_teams": 0,
+          "boats": 0
+        }
+      },
+      {
+        "destination": "Dekapam",
+        "priority_score": 478.29,
+        "fulfillment_percent": 0,
+        "demand": {
+          "food_kg": 540.0,
+          "water_liters": 3240.0,
+          "medical_teams": 3,
+          "boats": 16
+        },
+        "allocated": {
+          "food_kg": 0,
+          "water_liters": 0,
+          "medical_teams": 0,
+          "boats": 0
+        }
+      },
+      {
+        "destination": "Ramdhan",
+        "priority_score": 460.46,
+        "fulfillment_percent": 0,
+        "demand": {
+          "food_kg": 495.0,
+          "water_liters": 2970.0,
+          "medical_teams": 2,
+          "boats": 14
+        },
+        "allocated": {
+          "food_kg": 0,
+          "water_liters": 0,
+          "medical_teams": 0,
+          "boats": 0
+        }
+      },
+      {
+        "destination": "Bahir Sille",
+        "priority_score": 62.71,
+        "fulfillment_percent": 100,
+        "demand": {
+          "food_kg": 0.0,
+          "water_liters": 0.0,
+          "medical_teams": 0,
+          "boats": 0
+        },
+        "allocated": {
+          "food_kg": 0,
+          "water_liters": 0,
+          "medical_teams": 0,
+          "boats": 0
+        }
+      },
+      {
+        "destination": "Rayang",
+        "priority_score": 58.17,
+        "fulfillment_percent": 100,
+        "demand": {
+          "food_kg": 0.0,
+          "water_liters": 0.0,
+          "medical_teams": 0,
+          "boats": 0
+        },
+        "allocated": {
+          "food_kg": 0,
+          "water_liters": 0,
+          "medical_teams": 0,
+          "boats": 0
+        }
+      },
+      {
+        "destination": "Oiramghat",
+        "priority_score": 54.07,
+        "fulfillment_percent": 100,
+        "demand": {
+          "food_kg": 0.0,
+          "water_liters": 0.0,
+          "medical_teams": 0,
+          "boats": 0
+        },
+        "allocated": {
+          "food_kg": 0,
+          "water_liters": 0,
+          "medical_teams": 0,
+          "boats": 0
+        }
+      }
+    ]
+  },
+  "disrupted": {
+    "allocations": [
+      {
+        "source": "Jonai CHC",
+        "destination": "Jonai Bazar",
+        "resource_type": "medical_teams",
+        "quantity": 6,
+        "distance_km": 12.62,
+        "route_edges": [
+          "edge_hosp_Jonai CHC_0",
+          "1531211",
+          "1542832",
+          "1571145",
+          "edge_hab_Oiramghat_0",
+          "edge_hab_Oiramghat_1",
+          "1573461",
+          "1575736",
+          "1553330",
+          "1578658",
+          "edge_hab_Jonai Bazar_0"
+        ]
+      },
+      {
+        "source": "Jonai Response Base",
+        "destination": "Jonai Bazar",
+        "resource_type": "boats",
+        "quantity": 36,
+        "distance_km": 0.77,
+        "route_edges": [
+          "edge_base_connect_0",
+          "edge_hab_Jonai Bazar_0"
+        ]
+      },
+      {
+        "source": "Police Station",
+        "destination": "Jonai Bazar",
+        "resource_type": "boats",
+        "quantity": 24,
+        "distance_km": 11.0,
+        "route_edges": [
+          "edge_police_Police Station_0_dup2",
+          "1420670",
+          "1582552",
+          "1542975",
+          "1569183",
+          "1575736",
+          "1553330",
+          "1578658",
+          "edge_hab_Jonai Bazar_0"
+        ]
+      },
+      {
+        "source": "Police Station",
+        "destination": "Simen Chapori",
+        "resource_type": "boats",
+        "quantity": 16,
+        "distance_km": 43.39,
+        "route_edges": [
+          "edge_police_Police Station_1_dup2",
+          "1546766",
+          "1578201",
+          "1492190",
+          "1571206",
+          "1567408",
+          "1574658",
+          "1576249",
+          "1559608",
+          "1521975",
+          "1548712",
+          "1576722",
+          "1579906",
+          "1571403",
+          "edge_hab_Simen Chapori_1"
+        ]
+      }
+    ],
+    "destination_summary": [
+      {
+        "destination": "Jonai Bazar",
+        "priority_score": 1214.04,
+        "fulfillment_percent": 0,
+        "demand": {
+          "food_kg": 2025.0,
+          "water_liters": 12150.0,
+          "medical_teams": 9,
+          "boats": 60
+        },
+        "allocated": {
+          "food_kg": 0,
+          "water_liters": 0,
+          "medical_teams": 6,
+          "boats": 60
+        }
+      },
+      {
+        "destination": "Simen Chapori",
+        "priority_score": 1085.61,
+        "fulfillment_percent": 0,
+        "demand": {
+          "food_kg": 1710.0,
+          "water_liters": 10260.0,
+          "medical_teams": 7,
+          "boats": 51
+        },
+        "allocated": {
+          "food_kg": 0,
+          "water_liters": 0,
+          "medical_teams": 0,
+          "boats": 16
+        }
+      },
+      {
+        "destination": "Murkongselek Station Area",
+        "priority_score": 928.74,
+        "fulfillment_percent": 0,
+        "demand": {
+          "food_kg": 1440.0,
+          "water_liters": 8640.0,
+          "medical_teams": 6,
+          "boats": 43
+        },
+        "allocated": {
+          "food_kg": 0,
+          "water_liters": 0,
+          "medical_teams": 0,
+          "boats": 0
+        }
+      },
+      {
+        "destination": "Dimow",
+        "priority_score": 686.75,
+        "fulfillment_percent": 0,
+        "demand": {
+          "food_kg": 945.0,
+          "water_liters": 5670.0,
+          "medical_teams": 4,
+          "boats": 28
+        },
+        "allocated": {
+          "food_kg": 0,
+          "water_liters": 0,
+          "medical_teams": 0,
+          "boats": 0
+        }
+      },
+      {
+        "destination": "Laimekuri",
+        "priority_score": 613.46,
+        "fulfillment_percent": 0,
+        "demand": {
+          "food_kg": 810.0,
+          "water_liters": 4860.0,
+          "medical_teams": 4,
+          "boats": 24
+        },
+        "allocated": {
+          "food_kg": 0,
+          "water_liters": 0,
+          "medical_teams": 0,
+          "boats": 0
+        }
+      },
+      {
+        "destination": "Dekapam",
+        "priority_score": 478.29,
+        "fulfillment_percent": 0,
+        "demand": {
+          "food_kg": 540.0,
+          "water_liters": 3240.0,
+          "medical_teams": 3,
+          "boats": 16
+        },
+        "allocated": {
+          "food_kg": 0,
+          "water_liters": 0,
+          "medical_teams": 0,
+          "boats": 0
+        }
+      },
+      {
+        "destination": "Ramdhan",
+        "priority_score": 460.46,
+        "fulfillment_percent": 0,
+        "demand": {
+          "food_kg": 495.0,
+          "water_liters": 2970.0,
+          "medical_teams": 2,
+          "boats": 14
+        },
+        "allocated": {
+          "food_kg": 0,
+          "water_liters": 0,
+          "medical_teams": 0,
+          "boats": 0
+        }
+      },
+      {
+        "destination": "Bahir Sille",
+        "priority_score": 62.71,
+        "fulfillment_percent": 100,
+        "demand": {
+          "food_kg": 0.0,
+          "water_liters": 0.0,
+          "medical_teams": 0,
+          "boats": 0
+        },
+        "allocated": {
+          "food_kg": 0,
+          "water_liters": 0,
+          "medical_teams": 0,
+          "boats": 0
+        }
+      },
+      {
+        "destination": "Rayang",
+        "priority_score": 58.17,
+        "fulfillment_percent": 100,
+        "demand": {
+          "food_kg": 0.0,
+          "water_liters": 0.0,
+          "medical_teams": 0,
+          "boats": 0
+        },
+        "allocated": {
+          "food_kg": 0,
+          "water_liters": 0,
+          "medical_teams": 0,
+          "boats": 0
+        }
+      },
+      {
+        "destination": "Oiramghat",
+        "priority_score": 54.07,
+        "fulfillment_percent": 100,
+        "demand": {
+          "food_kg": 0.0,
+          "water_liters": 0.0,
+          "medical_teams": 0,
+          "boats": 0
+        },
+        "allocated": {
+          "food_kg": 0,
+          "water_liters": 0,
+          "medical_teams": 0,
+          "boats": 0
+        }
+      }
+    ]
+  }
+}

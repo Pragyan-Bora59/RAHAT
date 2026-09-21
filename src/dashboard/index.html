@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAHAT — Emergency Response Command</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        
+        <!-- Header -->
+        <header class="header">
+            <div class="header-title">
+                <h1>RAHAT Command</h1>
+                <span class="subtitle">SIH26191 — Dhemaji District (Jonai Cluster)</span>
+            </div>
+            
+            <div class="temporal-controls">
+                <button class="time-btn" data-time="11jul">11 Jul 18:00 IST (Baseline)</button>
+                <button class="time-btn" data-time="18jul">18 Jul 18:00 IST (Onset)</button>
+                <button class="time-btn active" data-time="22jul">22 Jul 18:00 IST (Active)</button>
+                <button class="time-btn" data-time="28jul">28 Jul 18:00 IST (Persistence)</button>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            
+            <!-- Map View -->
+            <section class="map-section">
+                <div id="map"></div>
+                <div class="map-overlay-controls">
+                    <label><input type="checkbox" id="toggle-hazard" checked> Show Hazard Zones</label>
+                    <label><input type="checkbox" id="toggle-routes" checked> Show Routes</label>
+                    <label><input type="checkbox" id="toggle-hospitals" checked> Show Hospitals</label>
+                    <label><input type="checkbox" id="toggle-police" checked> Show Police Stations</label>
+                    <label><input type="checkbox" id="toggle-bases" checked> Show Emergency Bases</label>
+                </div>
+            </section>
+            
+            <!-- Side Panels -->
+            <aside class="side-panel">
+                
+                <!-- Situation Cards -->
+                <div class="panel-section">
+                    <h2>Situation Summary</h2>
+                    <div class="cards-grid">
+                        <div class="card metric-card">
+                            <h3>Affected Habitations</h3>
+                            <div class="value" id="val-habitations">--</div>
+                        </div>
+                        <div class="card metric-card">
+                            <h3>Est. Affected Pop</h3>
+                            <div class="value" id="val-population">--</div>
+                        </div>
+                        <div class="card metric-card">
+                            <h3>Req. Food (kg/day)</h3>
+                            <div class="value" id="val-food">--</div>
+                        </div>
+                        <div class="card metric-card" style="border: 1px solid var(--accent-blue);">
+                            <h3 style="color: var(--accent-blue);">Req. Water (L/day)</h3>
+                            <div class="value" id="val-water" style="color: var(--accent-blue);">--</div>
+                        </div>
+                        <div class="card metric-card">
+                            <h3>Req. Rescue Boats</h3>
+                            <div class="value" id="val-boats">--</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Priority Table -->
+                <div class="panel-section">
+                    <h2>Top Priority Missions</h2>
+                    <div class="table-container">
+                        <table id="priority-table">
+                            <thead>
+                                <tr>
+                                    <th>Habitation</th>
+                                    <th>Hazard</th>
+                                    <th>Rescue Need</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Populated via JS -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <!-- Resource Allocation Card -->
+                <div class="panel-section">
+                    <h2>Resource Allocation Dispatch</h2>
+                    
+                    <!-- Logistics & Allocation Panel -->
+                    <div class="metrics-panel card recommendation-card mt-3" id="allocation-card">
+                        <h4 style="margin-top: 0; margin-bottom: 10px;">Logistics & Allocation</h4>
+                        
+                        <div class="rec-row status-optimal" id="alloc-status" style="margin-bottom: 15px; text-align: center; font-weight: bold; padding: 5px; border-radius: 4px;">
+                            Network: Optimal Baseline
+                        </div>
+                        
+                        <div id="alloc-content">
+                            <p style="font-size: 0.9em; color: #ccc;">Select a Habitation on the map to view its specific incoming resource allocations and logistics routes.</p>
+                        </div>
+                        
+                        <div id="alloc-details" style="display: none; margin-top: 10px; padding: 10px; background: rgba(0,0,0,0.3); border-radius: 6px; border-left: 3px solid #00ffff;">
+                            <div style="font-size: 1.1em; color: #00ffff; font-weight: bold; margin-bottom: 5px;" id="alloc-target-name">--</div>
+                            <div style="font-size: 0.85em; color: #aaa; margin-bottom: 10px;">Priority Score: <span id="alloc-target-score" style="color: #fff;">--</span></div>
+                            
+                            <div id="alloc-resources-list">
+                                <!-- Populated by JS -->
+                            </div>
+                            
+                            <button id="btn-clear-selection" class="secondary-btn" style="width: 100%; margin-top: 15px;" onclick="window.clearAllocationSelection()">Clear Selection</button>
+                        </div>
+                        
+                        <button id="btn-reset-road" class="secondary-btn" style="width: 100%; margin-top: 15px; display: none;" onclick="window.toggleRoadBlock(null)">Clear Road Block</button>
+                    </div>
+                </div>
+
+                <!-- Custom Interactive Routing -->
+                <div class="panel-section">
+                    <h2>Custom Transport Routing</h2>
+                    <div class="card routing-card">
+                        <div class="route-select-row">
+                            <label for="route-source">Source:</label>
+                            <select id="route-source">
+                                <!-- Populated dynamically -->
+                            </select>
+                        </div>
+                        <div class="route-select-row" style="margin-top: 10px;">
+                            <label for="route-dest">Destination:</label>
+                            <select id="route-dest">
+                                <!-- Populated dynamically -->
+                            </select>
+                        </div>
+                        <button id="btn-calculate-custom-route" class="primary-btn" style="margin-top: 15px; width: 100%;">Calculate Custom Route</button>
+                        
+                        <div id="custom-route-metrics" class="scenario-metrics" style="display:none; margin-top: 15px;">
+                            <h4>Custom Route Info</h4>
+                            <div class="rec-row"><strong>Distance:</strong> <span id="custom-route-dist">--</span> km</div>
+                            <div class="rec-row"><strong>Est. Time:</strong> <span id="custom-route-time">--</span> hrs</div>
+                            <div class="rec-row"><strong>Transport Mode:</strong> <span id="custom-route-mode">--</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Evacuation & Facility Planner -->
+                <div class="panel-section">
+                    <h2>Evacuation & Facilities Planner</h2>
+                    <div class="card routing-card">
+                        <div class="route-select-row">
+                            <label for="evac-source">Source Habitation:</label>
+                            <select id="evac-source">
+                                <!-- Populated dynamically -->
+                            </select>
+                        </div>
+                        <button id="btn-evacuate" class="danger-btn" style="margin-top: 15px; width: 100%;">Find Nearest Safe Area</button>
+                        <div style="display: flex; gap: 10px; margin-top: 10px;">
+                            <button id="btn-hospital" class="secondary-btn" style="flex: 1;">Nearest Hospital</button>
+                            <button id="btn-police" class="secondary-btn" style="flex: 1;">Nearest Police</button>
+                        </div>
+                        
+                        <div id="evac-metrics" class="scenario-metrics" style="display:none; margin-top: 15px;">
+                            <h4 id="evac-title">Routing Plan</h4>
+                            <div class="rec-row"><strong>Target:</strong> <span id="evac-target">--</span></div>
+                            <div class="rec-row"><strong>Distance:</strong> <span id="evac-dist">--</span> km</div>
+                            <div class="rec-row"><strong>Est. Time:</strong> <span id="evac-time">--</span> hrs</div>
+                            <div class="rec-row"><strong>Transport Mode:</strong> <span id="evac-mode">--</span></div>
+                        </div>
+                    </div>
+                </div>
+
+            </aside>
+        </main>
+        
+        <!-- Resource Strip (Bottom) -->
+        <footer class="resource-strip">
+            <div class="strip-header">
+                <h3>Official Government Baseline</h3>
+                <span>(Source: DDMP 2024-25)</span>
+            </div>
+            <div class="resource-items" id="resource-container">
+                <!-- Populated via JS -->
+            </div>
+        </footer>
+        
+    </div>
+
+    <script src="./ts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+# RAHAT Hazard Scoring Weights
+# These weights determine the influence of different environmental factors
+# on the final Red-Zone classification.
+
+weights:
+  active_flood: 0.70       # Observed inundation has the highest weight (70%)
+  elevation_low: 0.15      # Lower elevations are at higher risk (15%)
+  slope_flat: 0.10         # Flat slopes drain slower (10%)
+  flow_accumulation: 0.05  # High accumulation = drainage convergence (5%)
+
+thresholds:
+  red: 0.85                # Score >= 0.85 -> Red Zone (Critical Hazard)
+  orange: 0.70             # Score >= 0.70 -> Orange Zone (High Hazard)
+  yellow: 0.35             # Score >= 0.35 -> Yellow Zone (Moderate Hazard)
+                           # Score < 0.35 -> Green Zone (Safe)

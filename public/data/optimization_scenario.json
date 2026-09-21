@@ -1,0 +1,45 @@
+{
+  "mission": {
+    "target": "Dimow",
+    "priority": 1212.5,
+    "type": "Evacuation / Supply",
+    "assigned_resource": "2 Rescue Boats"
+  },
+  "baseline": {
+    "route_edges": [
+      "edge_police_Police Station_1_dup1",
+      "1574905",
+      "1570182",
+      "1557342",
+      "1572676",
+      "1536575",
+      "1579020",
+      "1539631",
+      "1551030",
+      "edge_hab_Dimow_0"
+    ],
+    "distance_km": 15.4,
+    "estimated_time_hrs": 0.5
+  },
+  "disruption": {
+    "blocked_edge_id": "1536575",
+    "event": "Bridge 1536575 submerged"
+  },
+  "re_optimized": {
+    "route_edges": [
+      "edge_police_Police Station_1_dup1",
+      "1574905",
+      "1570182",
+      "1557342",
+      "1572676",
+      "1538111",
+      "1544444",
+      "1539631",
+      "1551030",
+      "edge_hab_Dimow_0"
+    ],
+    "distance_km": 18.2,
+    "estimated_time_hrs": 0.7,
+    "delay_hrs": 0.2
+  }
+}

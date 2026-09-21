@@ -1,0 +1,93 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "police_station_mha.1092",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.0425,
+          27.80083
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "state": "ARUNACHAL PRADESH",
+        "state_cd": 3,
+        "district": "LOWER SIANG",
+        "district_c": 3075,
+        "ps": "NARI",
+        "ps_cd": 3075002,
+        "latitude": 27.80083,
+        "longitude": 95.0425
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_station_mha.1097",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.95333,
+          27.8525
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "state": "ARUNACHAL PRADESH",
+        "state_cd": 3,
+        "district": "PAKKE-KESSANG DISTT.",
+        "district_c": 3073,
+        "ps": "LEMMI (PAKKE-KESSANG)",
+        "ps_cd": 3073002,
+        "latitude": 27.8525,
+        "longitude": 94.95333
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_station_mha.1205",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.88661,
+          27.71898
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "state": "ASSAM",
+        "state_cd": 4,
+        "district": "DHEMAJI",
+        "district_c": 4095,
+        "ps": "SIMEN CHAPORI",
+        "ps_cd": 4095008,
+        "latitude": 27.71898,
+        "longitude": 94.88661
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "police_station_mha.1208",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.22994,
+          27.82271
+        ]
+      },
+      "geometry_name": "geom",
+      "properties": {
+        "state": "ASSAM",
+        "state_cd": 4,
+        "district": "DHEMAJI",
+        "district_c": 4095,
+        "ps": "JONAI",
+        "ps_cd": 4095023,
+        "latitude": 27.82271,
+        "longitude": 95.22994
+      }
+    }
+  ]
+}

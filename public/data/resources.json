@@ -1,0 +1,112 @@
+[
+  {
+    "resource_id": "RES001",
+    "resource_type": "boat",
+    "quantity": 6.0,
+    "location": "Jonai Response Base",
+    "original_location": "Dhemaji Fire Station",
+    "purpose": "10 persons/boat",
+    "source": "DDMP Dhemaji 2024-25",
+    "source_date": "2024-06-01",
+    "status_type": "Official Government Baseline"
+  },
+  {
+    "resource_id": "RES002",
+    "resource_type": "boat",
+    "quantity": 1.0,
+    "location": "Dhemaji",
+    "original_location": "Dhemaji",
+    "purpose": "Medical Team",
+    "source": "DDMP Dhemaji 2024-25",
+    "source_date": "2024-06-01",
+    "status_type": "Official Government Baseline"
+  },
+  {
+    "resource_id": "RES003",
+    "resource_type": "boat",
+    "quantity": 25.0,
+    "location": "Police Station",
+    "original_location": "Sissiborgaon Ghat",
+    "purpose": "15 persons/boat",
+    "source": "DDMP Dhemaji 2024-25",
+    "source_date": "2024-06-15",
+    "status_type": "Official Government Baseline"
+  },
+  {
+    "resource_id": "RES004",
+    "resource_type": "boat",
+    "quantity": 15.0,
+    "location": "Police Station",
+    "original_location": "Gogamukh",
+    "purpose": "15 persons/boat",
+    "source": "DDMP Dhemaji 2024-25",
+    "source_date": "2024-06-15",
+    "status_type": "Official Government Baseline"
+  },
+  {
+    "resource_id": "RES005",
+    "resource_type": "boat",
+    "quantity": 30.0,
+    "location": "Jonai Response Base",
+    "original_location": "Jonai Ghat",
+    "purpose": "15 persons/boat",
+    "source": "DDMP Dhemaji 2024-25",
+    "source_date": "2024-06-15",
+    "status_type": "Official Government Baseline"
+  },
+  {
+    "resource_id": "RES009",
+    "resource_type": "food_kg",
+    "quantity": 1000000.0,
+    "location": "Jonai Response Base",
+    "original_location": "FCI Godown Dhemaji",
+    "purpose": "N/A",
+    "source": "DDMP Dhemaji 2024-25",
+    "source_date": "2024-06-10",
+    "status_type": "Official Government Baseline"
+  },
+  {
+    "resource_id": "RES010",
+    "resource_type": "food_kg",
+    "quantity": 200000.0,
+    "location": "Jonai Response Base",
+    "original_location": "FCI Godown Dhemaji",
+    "purpose": "N/A",
+    "source": "DDMP Dhemaji 2024-25",
+    "source_date": "2024-06-10",
+    "status_type": "Official Government Baseline"
+  },
+  {
+    "resource_id": "RES011",
+    "resource_type": "medical_team",
+    "quantity": 4.0,
+    "location": "Jonai CHC",
+    "original_location": "Dhemaji Civil Hospital",
+    "purpose": "N/A",
+    "source": "DDMP Dhemaji 2024-25",
+    "source_date": "2024-06-01",
+    "status_type": "Official Government Baseline"
+  },
+  {
+    "resource_id": "RES012",
+    "resource_type": "medical_team",
+    "quantity": 2.0,
+    "location": "Jonai CHC",
+    "original_location": "Jonai CHC",
+    "purpose": "N/A",
+    "source": "DDMP Dhemaji 2024-25",
+    "source_date": "2024-06-01",
+    "status_type": "Official Government Baseline"
+  },
+  {
+    "resource_id": "RES014",
+    "resource_type": "water_liters",
+    "quantity": 15000.0,
+    "location": "Jonai Response Base",
+    "original_location": "PHE Division Dhemaji",
+    "purpose": "5000 L/day",
+    "source": "DDMP Dhemaji 2024-25",
+    "source_date": "2024-06-01",
+    "status_type": "Official Government Baseline"
+  }
+]

@@ -1,0 +1,2063 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2867006,
+          27.8622963
+        ]
+      },
+      "properties": {
+        "id": "778368.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2796065,
+          27.8601368
+        ]
+      },
+      "properties": {
+        "id": "778315.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2961249,
+          27.865401
+        ]
+      },
+      "properties": {
+        "id": "778442.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2239967,
+          27.8610715
+        ]
+      },
+      "properties": {
+        "id": "778258.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2333498,
+          27.8455376
+        ]
+      },
+      "properties": {
+        "id": "778067.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2288725,
+          27.8441774
+        ]
+      },
+      "properties": {
+        "id": "778044.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2375601,
+          27.8466837
+        ]
+      },
+      "properties": {
+        "id": "778089.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2678438,
+          27.8565657
+        ]
+      },
+      "properties": {
+        "id": "778255.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2635701,
+          27.8552335
+        ]
+      },
+      "properties": {
+        "id": "778214.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2751465,
+          27.8587289
+        ]
+      },
+      "properties": {
+        "id": "778288.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2650946,
+          27.8394687
+        ]
+      },
+      "properties": {
+        "id": "778034.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2657162,
+          27.8406588
+        ]
+      },
+      "properties": {
+        "id": "778045.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2749632,
+          27.8207729
+        ]
+      },
+      "properties": {
+        "id": "777824.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.240173,
+          27.8300174
+        ]
+      },
+      "properties": {
+        "id": "777883.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2321802,
+          27.8201875
+        ]
+      },
+      "properties": {
+        "id": "777743.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2350704,
+          27.8164666
+        ]
+      },
+      "properties": {
+        "id": "777696.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2422194,
+          27.8075113
+        ]
+      },
+      "properties": {
+        "id": "777606.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2472162,
+          27.7987952
+        ]
+      },
+      "properties": {
+        "id": "777500.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2441715,
+          27.8051265
+        ]
+      },
+      "properties": {
+        "id": "777579.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.23897,
+          27.8116464
+        ]
+      },
+      "properties": {
+        "id": "777640.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2324067,
+          27.7976454
+        ]
+      },
+      "properties": {
+        "id": "777454.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2281926,
+          27.7974592
+        ]
+      },
+      "properties": {
+        "id": "777449.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2248514,
+          27.7971839
+        ]
+      },
+      "properties": {
+        "id": "777441.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2208841,
+          27.7967766
+        ]
+      },
+      "properties": {
+        "id": "777429.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2442386,
+          27.7983789
+        ]
+      },
+      "properties": {
+        "id": "777481.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2593466,
+          27.7963952
+        ]
+      },
+      "properties": {
+        "id": "777473.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2567311,
+          27.7971418
+        ]
+      },
+      "properties": {
+        "id": "777480.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2540344,
+          27.7978748
+        ]
+      },
+      "properties": {
+        "id": "777493.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2480437,
+          27.800602
+        ]
+      },
+      "properties": {
+        "id": "777528.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2504229,
+          27.7989678
+        ]
+      },
+      "properties": {
+        "id": "777510.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2741867,
+          27.8043336
+        ]
+      },
+      "properties": {
+        "id": "777603.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2712033,
+          27.7996719
+        ]
+      },
+      "properties": {
+        "id": "777545.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2721589,
+          27.7957627
+        ]
+      },
+      "properties": {
+        "id": "777485.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2698995,
+          27.7927758
+        ]
+      },
+      "properties": {
+        "id": "777440.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2629084,
+          27.7952947
+        ]
+      },
+      "properties": {
+        "id": "777462.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.266955,
+          27.7939602
+        ]
+      },
+      "properties": {
+        "id": "777451.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2681073,
+          27.7934958
+        ]
+      },
+      "properties": {
+        "id": "777447.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2725055,
+          27.7916908
+        ]
+      },
+      "properties": {
+        "id": "777426.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2745,
+          27.7907034
+        ]
+      },
+      "properties": {
+        "id": "777414.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2781867,
+          27.7880009
+        ]
+      },
+      "properties": {
+        "id": "777379.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2793685,
+          27.7868961
+        ]
+      },
+      "properties": {
+        "id": "777373.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2803314,
+          27.7859225
+        ]
+      },
+      "properties": {
+        "id": "777362.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2769502,
+          27.7891349
+        ]
+      },
+      "properties": {
+        "id": "777396.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2759559,
+          27.7898611
+        ]
+      },
+      "properties": {
+        "id": "777404.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8023815,
+          27.6784776
+        ]
+      },
+      "properties": {
+        "id": "774599.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8226653,
+          27.6931923
+        ]
+      },
+      "properties": {
+        "id": "774858.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8620621,
+          27.7120443
+        ]
+      },
+      "properties": {
+        "id": "775176.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8628139,
+          27.7089798
+        ]
+      },
+      "properties": {
+        "id": "775134.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8488546,
+          27.7024865
+        ]
+      },
+      "properties": {
+        "id": "775016.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8325631,
+          27.6951114
+        ]
+      },
+      "properties": {
+        "id": "774902.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8304106,
+          27.6937052
+        ]
+      },
+      "properties": {
+        "id": "774876.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8377277,
+          27.6978029
+        ]
+      },
+      "properties": {
+        "id": "774936.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8407394,
+          27.6992628
+        ]
+      },
+      "properties": {
+        "id": "774955.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.9017491,
+          27.7317554
+        ]
+      },
+      "properties": {
+        "id": "775596.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.9055618,
+          27.7360356
+        ]
+      },
+      "properties": {
+        "id": "775682.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.910015,
+          27.7413265
+        ]
+      },
+      "properties": {
+        "id": "775802.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.9125875,
+          27.7449332
+        ]
+      },
+      "properties": {
+        "id": "775873.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.9361867,
+          27.7557226
+        ]
+      },
+      "properties": {
+        "id": "776141.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.9399966,
+          27.752482
+        ]
+      },
+      "properties": {
+        "id": "776070.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.9371913,
+          27.7521101
+        ]
+      },
+      "properties": {
+        "id": "776055.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.9310029,
+          27.7549406
+        ]
+      },
+      "properties": {
+        "id": "776103.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.9231553,
+          27.753633
+        ]
+      },
+      "properties": {
+        "id": "776059.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.915749,
+          27.749703
+        ]
+      },
+      "properties": {
+        "id": "775959.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.916692,
+          27.7470986
+        ]
+      },
+      "properties": {
+        "id": "775918.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.9244276,
+          27.7502327
+        ]
+      },
+      "properties": {
+        "id": "775985.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.9690876,
+          27.756773
+        ]
+      },
+      "properties": {
+        "id": "776225.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.9610056,
+          27.7555813
+        ]
+      },
+      "properties": {
+        "id": "776189.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.942264,
+          27.7528768
+        ]
+      },
+      "properties": {
+        "id": "776079.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.9457451,
+          27.7533193
+        ]
+      },
+      "properties": {
+        "id": "776098.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.9583242,
+          27.7589575
+        ]
+      },
+      "properties": {
+        "id": "776254.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.9648961,
+          27.7599721
+        ]
+      },
+      "properties": {
+        "id": "776286.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.9730997,
+          27.7611996
+        ]
+      },
+      "properties": {
+        "id": "776326.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.9799369,
+          27.7622256
+        ]
+      },
+      "properties": {
+        "id": "776354.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.9954803,
+          27.7646583
+        ]
+      },
+      "properties": {
+        "id": "776441.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.9950399,
+          27.7609062
+        ]
+      },
+      "properties": {
+        "id": "776359.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.9811767,
+          27.7586967
+        ]
+      },
+      "properties": {
+        "id": "776288.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.1793474,
+          27.7561393
+        ]
+      },
+      "properties": {
+        "id": "776590.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.1655258,
+          27.7793616
+        ]
+      },
+      "properties": {
+        "id": "777022.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.149066,
+          27.7612594
+        ]
+      },
+      "properties": {
+        "id": "776625.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.147428,
+          27.7605883
+        ]
+      },
+      "properties": {
+        "id": "776614.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.1511151,
+          27.7621324
+        ]
+      },
+      "properties": {
+        "id": "776645.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.1561489,
+          27.7641833
+        ]
+      },
+      "properties": {
+        "id": "776698.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.1530439,
+          27.7629298
+        ]
+      },
+      "properties": {
+        "id": "776668.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.1593927,
+          27.7660492
+        ]
+      },
+      "properties": {
+        "id": "776726.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.160206,
+          27.7683022
+        ]
+      },
+      "properties": {
+        "id": "776764.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.1606597,
+          27.7694532
+        ]
+      },
+      "properties": {
+        "id": "776794.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.1332087,
+          27.7571985
+        ]
+      },
+      "properties": {
+        "id": "776535.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.1156901,
+          27.7541437
+        ]
+      },
+      "properties": {
+        "id": "776459.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.1175598,
+          27.7540837
+        ]
+      },
+      "properties": {
+        "id": "776462.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.0538722,
+          27.7741
+        ]
+      },
+      "properties": {
+        "id": "776699.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.0551816,
+          27.7565618
+        ]
+      },
+      "properties": {
+        "id": "776383.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.100057,
+          27.7522188
+        ]
+      },
+      "properties": {
+        "id": "776380.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.0980732,
+          27.7513245
+        ]
+      },
+      "properties": {
+        "id": "776364.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.10704,
+          27.7548308
+        ]
+      },
+      "properties": {
+        "id": "776458.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.029775,
+          27.7631583
+        ]
+      },
+      "properties": {
+        "id": "776477.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.0266179,
+          27.7647904
+        ]
+      },
+      "properties": {
+        "id": "776497.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.0257195,
+          27.7693006
+        ]
+      },
+      "properties": {
+        "id": "776565.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.023633,
+          27.7662188
+        ]
+      },
+      "properties": {
+        "id": "776517.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.0064093,
+          27.7750212
+        ]
+      },
+      "properties": {
+        "id": "776627.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.0384477,
+          27.786158
+        ]
+      },
+      "properties": {
+        "id": "776912.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.0663516,
+          27.8072204
+        ]
+      },
+      "properties": {
+        "id": "777370.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.0646995,
+          27.7941852
+        ]
+      },
+      "properties": {
+        "id": "777145.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.0593427,
+          27.792628
+        ]
+      },
+      "properties": {
+        "id": "777087.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.0712376,
+          27.7960844
+        ]
+      },
+      "properties": {
+        "id": "777197.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.0831477,
+          27.7998609
+        ]
+      },
+      "properties": {
+        "id": "777281.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.0930658,
+          27.802708
+        ]
+      },
+      "properties": {
+        "id": "777337.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.1230518,
+          27.8124421
+        ]
+      },
+      "properties": {
+        "id": "777524.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.1312854,
+          27.8149439
+        ]
+      },
+      "properties": {
+        "id": "777562.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.1510127,
+          27.8209458
+        ]
+      },
+      "properties": {
+        "id": "777652.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.173177,
+          27.7906608
+        ]
+      },
+      "properties": {
+        "id": "777274.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.1907144,
+          27.7991305
+        ]
+      },
+      "properties": {
+        "id": "777420.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.1838134,
+          27.7955005
+        ]
+      },
+      "properties": {
+        "id": "777367.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2143268,
+          27.796365
+        ]
+      },
+      "properties": {
+        "id": "777411.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2084992,
+          27.7989186
+        ]
+      },
+      "properties": {
+        "id": "777443.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2137878,
+          27.8100317
+        ]
+      },
+      "properties": {
+        "id": "777601.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2053556,
+          27.7989167
+        ]
+      },
+      "properties": {
+        "id": "777439.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.1950289,
+          27.7990926
+        ]
+      },
+      "properties": {
+        "id": "777424.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.1927839,
+          27.7991267
+        ]
+      },
+      "properties": {
+        "id": "777423.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2183682,
+          27.8172223
+        ]
+      },
+      "properties": {
+        "id": "777689.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2006295,
+          27.83599
+        ]
+      },
+      "properties": {
+        "id": "777901.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.1929822,
+          27.8336834
+        ]
+      },
+      "properties": {
+        "id": "777876.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.1962887,
+          27.8347724
+        ]
+      },
+      "properties": {
+        "id": "777890.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2128085,
+          27.839513
+        ]
+      },
+      "properties": {
+        "id": "777977.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2181223,
+          27.8492259
+        ]
+      },
+      "properties": {
+        "id": "778099.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8353611,
+          27.8893432
+        ]
+      },
+      "properties": {
+        "id": "778138.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.834148,
+          27.8880388
+        ]
+      },
+      "properties": {
+        "id": "778126.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8313197,
+          27.8855611
+        ]
+      },
+      "properties": {
+        "id": "778093.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8025377,
+          27.8633791
+        ]
+      },
+      "properties": {
+        "id": "777780.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8096715,
+          27.8647578
+        ]
+      },
+      "properties": {
+        "id": "777818.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8072046,
+          27.863243
+        ]
+      },
+      "properties": {
+        "id": "777787.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8103202,
+          27.865159
+        ]
+      },
+      "properties": {
+        "id": "777825.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8171725,
+          27.8692837
+        ]
+      },
+      "properties": {
+        "id": "777873.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8222462,
+          27.8775414
+        ]
+      },
+      "properties": {
+        "id": "777992.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8218356,
+          27.8743809
+        ]
+      },
+      "properties": {
+        "id": "777941.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8197645,
+          27.8735228
+        ]
+      },
+      "properties": {
+        "id": "777923.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8220686,
+          27.8786518
+        ]
+      },
+      "properties": {
+        "id": "778002.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8275471,
+          27.8842774
+        ]
+      },
+      "properties": {
+        "id": "778069.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8261086,
+          27.8830314
+        ]
+      },
+      "properties": {
+        "id": "778054.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8241524,
+          27.8814657
+        ]
+      },
+      "properties": {
+        "id": "778032.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8383208,
+          27.8918464
+        ]
+      },
+      "properties": {
+        "id": "778170.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8561794,
+          27.8998385
+        ]
+      },
+      "properties": {
+        "id": "778305.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8545136,
+          27.8996984
+        ]
+      },
+      "properties": {
+        "id": "778298.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8530782,
+          27.8992104
+        ]
+      },
+      "properties": {
+        "id": "778291.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8505268,
+          27.8981584
+        ]
+      },
+      "properties": {
+        "id": "778273.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8480991,
+          27.8979009
+        ]
+      },
+      "properties": {
+        "id": "778267.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8459616,
+          27.8971095
+        ]
+      },
+      "properties": {
+        "id": "778259.0",
+        "type": "bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          94.8443219,
+          27.8961453
+        ]
+      },
+      "properties": {
+        "id": "778243.0",
+        "type": "bridge"
+      }
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "habitations": [
+    {
+      "habitation": "Laimekuri",
+      "hazard_class": 3,
+      "affected_population": 1080,
+      "children_est": 324,
+      "accessibility": "Moderate",
+      "needs": {
+        "rescue": "High",
+        "water_food": "High",
+        "medical": "Medium",
+        "relocation": "Required"
+      },
+      "quantitative_needs": {
+        "food_kg": 540.0,
+        "water_liters": 3240.0,
+        "medical_teams": 3,
+        "boats": 10
+      },
+      "priority_score": 428.46
+    },
+    {
+      "habitation": "Jonai Bazar",
+      "hazard_class": 2,
+      "affected_population": 900,
+      "children_est": 270,
+      "accessibility": "Good",
+      "needs": {
+        "rescue": "Medium",
+        "water_food": "Medium",
+        "medical": "Low",
+        "relocation": "Standby"
+      },
+      "quantitative_needs": {
+        "food_kg": 450.0,
+        "water_liters": 2700.0,
+        "medical_teams": 2,
+        "boats": 9
+      },
+      "priority_score": 326.54
+    },
+    {
+      "habitation": "Rayang",
+      "hazard_class": 2,
+      "affected_population": 300,
+      "children_est": 90,
+      "accessibility": "Good",
+      "needs": {
+        "rescue": "Medium",
+        "water_food": "Medium",
+        "medical": "Low",
+        "relocation": "Standby"
+      },
+      "quantitative_needs": {
+        "food_kg": 150.0,
+        "water_liters": 900.0,
+        "medical_teams": 1,
+        "boats": 3
+      },
+      "priority_score": 183.17
+    },
+    {
+      "habitation": "Simen Chapori",
+      "hazard_class": 1,
+      "affected_population": 0,
+      "children_est": 0,
+      "accessibility": "Excellent",
+      "needs": {
+        "rescue": "Low",
+        "water_food": "Low",
+        "medical": "Low",
+        "relocation": "Not Required"
+      },
+      "quantitative_needs": {
+        "food_kg": 0.0,
+        "water_liters": 0.0,
+        "medical_teams": 0,
+        "boats": 0
+      },
+      "priority_score": 80.61
+    },
+    {
+      "habitation": "Dimow",
+      "hazard_class": 1,
+      "affected_population": 0,
+      "children_est": 0,
+      "accessibility": "Excellent",
+      "needs": {
+        "rescue": "Low",
+        "water_food": "Low",
+        "medical": "Low",
+        "relocation": "Not Required"
+      },
+      "quantitative_needs": {
+        "food_kg": 0.0,
+        "water_liters": 0.0,
+        "medical_teams": 0,
+        "boats": 0
+      },
+      "priority_score": 64.25
+    },
+    {
+      "habitation": "Ramdhan",
+      "hazard_class": 1,
+      "affected_population": 0,
+      "children_est": 0,
+      "accessibility": "Excellent",
+      "needs": {
+        "rescue": "Low",
+        "water_food": "Low",
+        "medical": "Low",
+        "relocation": "Not Required"
+      },
+      "quantitative_needs": {
+        "food_kg": 0.0,
+        "water_liters": 0.0,
+        "medical_teams": 0,
+        "boats": 0
+      },
+      "priority_score": 62.96
+    },
+    {
+      "habitation": "Bahir Sille",
+      "hazard_class": 1,
+      "affected_population": 0,
+      "children_est": 0,
+      "accessibility": "Excellent",
+      "needs": {
+        "rescue": "Low",
+        "water_food": "Low",
+        "medical": "Low",
+        "relocation": "Not Required"
+      },
+      "quantitative_needs": {
+        "food_kg": 0.0,
+        "water_liters": 0.0,
+        "medical_teams": 0,
+        "boats": 0
+      },
+      "priority_score": 62.71
+    },
+    {
+      "habitation": "Murkongselek Station Area",
+      "hazard_class": 1,
+      "affected_population": 0,
+      "children_est": 0,
+      "accessibility": "Excellent",
+      "needs": {
+        "rescue": "Low",
+        "water_food": "Low",
+        "medical": "Low",
+        "relocation": "Not Required"
+      },
+      "quantitative_needs": {
+        "food_kg": 0.0,
+        "water_liters": 0.0,
+        "medical_teams": 0,
+        "boats": 0
+      },
+      "priority_score": 58.74
+    },
+    {
+      "habitation": "Dekapam",
+      "hazard_class": 1,
+      "affected_population": 0,
+      "children_est": 0,
+      "accessibility": "Excellent",
+      "needs": {
+        "rescue": "Low",
+        "water_food": "Low",
+        "medical": "Low",
+        "relocation": "Not Required"
+      },
+      "quantitative_needs": {
+        "food_kg": 0.0,
+        "water_liters": 0.0,
+        "medical_teams": 0,
+        "boats": 0
+      },
+      "priority_score": 58.29
+    },
+    {
+      "habitation": "Oiramghat",
+      "hazard_class": 1,
+      "affected_population": 0,
+      "children_est": 0,
+      "accessibility": "Excellent",
+      "needs": {
+        "rescue": "Low",
+        "water_food": "Low",
+        "medical": "Low",
+        "relocation": "Not Required"
+      },
+      "quantitative_needs": {
+        "food_kg": 0.0,
+        "water_liters": 0.0,
+        "medical_teams": 0,
+        "boats": 0
+      },
+      "priority_score": 54.07
+    }
+  ],
+  "aggregate_needs": {
+    "food_kg": 1140.0,
+    "water_liters": 6840.0,
+    "medical_teams": 6,
+    "boats": 22
+  }
+}
