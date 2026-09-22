@@ -475,29 +475,10 @@ function setupEventListeners() {
 window.selectHabitation = function(name) {
     selectedHabitation = name;
     
-    const habsList = needsData.habitations || [];
-    const nodeData = habsList.find((n) => n.habitation === name);
-    const score = nodeData ? nodeData.priority_score : 'N/A';
-    
     const allocContent = document.getElementById('alloc-content');
-    const allocDetails = document.getElementById('alloc-details');
     if (allocContent) allocContent.style.display = 'none';
-    if (allocDetails) allocDetails.style.display = 'block';
     
-    const targetName = document.getElementById('alloc-target-name');
-    if (targetName) targetName.textContent = name;
-    
-    const targetScore = document.getElementById('alloc-target-score');
-    if (targetScore) targetScore.textContent = score;
-    
-    const resList = document.getElementById('alloc-resources-list');
-    if (resList) {
-        if (scenarioData.mission && name === scenarioData.mission.target) {
-            resList.innerHTML = `<div style="color: #ccc; font-size: 0.9em; margin-bottom: 5px;">Allocated: ${scenarioData.mission.assigned_resource}</div>`;
-        } else {
-            resList.innerHTML = `<div style="color: #ccc; font-size: 0.9em; margin-bottom: 5px;">No specific active missions yet.</div>`;
-        }
-    }
+    calculateDynamicAllocation(name);
     
     updateRoutesLayer();
 };
@@ -506,19 +487,26 @@ window.clearAllocationSelection = function() {
     selectedHabitation = null;
     state.activeRouteType = null;
     state.activeRouteArgs = null;
+    
     if (customRouteLayer) {
         map.removeLayer(customRouteLayer);
         customRouteLayer = null;
     }
+    if (dynamicRouteLayer) {
+        map.removeLayer(dynamicRouteLayer);
+        dynamicRouteLayer = null;
+    }
+    
     const cMetrics = document.getElementById('custom-route-metrics');
     if (cMetrics) cMetrics.style.display = 'none';
     const eMetrics = document.getElementById('evac-metrics');
     if (eMetrics) eMetrics.style.display = 'none';
     
     const allocContent = document.getElementById('alloc-content');
-    const allocDetails = document.getElementById('alloc-details');
+    const dynResults = document.getElementById('dynamic-allocation-results');
     if (allocContent) allocContent.style.display = 'block';
-    if (allocDetails) allocDetails.style.display = 'none';
+    if (dynResults) dynResults.style.display = 'none';
+    
     updateRoutesLayer();
 };
 
