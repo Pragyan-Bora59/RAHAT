@@ -1080,6 +1080,10 @@ function calculateFacilityRoute(sourceName, facilityType) {
         map.removeLayer(customRouteLayer);
         customRouteLayer = null;
     }
+    if (dynamicRouteLayer) {
+        map.removeLayer(dynamicRouteLayer);
+        dynamicRouteLayer = null;
+    }
     
     state.activeRouteType = 'facility';
     state.activeRouteArgs = { src: sourceName, type: facilityType };
@@ -1255,7 +1259,7 @@ function calculateDynamicAllocation(destName) {
     supplyNodes.sort((a, b) => dist[a.id] - dist[b.id]);
 
     const allocationRes = { water: [], food: [], med: [], boats: [] };
-    const usedEdges = new Set();
+    const usedEdgesMap = new Map(); // edgeId -> typeKey
 
     function allocate(req, typeKey, resList) {
         let remaining = req;
@@ -1278,7 +1282,12 @@ function calculateDynamicAllocation(destName) {
                 let curr = sn.id;
                 while (prev[curr]) {
                     const step = prev[curr];
-                    usedEdges.add(step.edge);
+                    const existingType = usedEdgesMap.get(step.edge);
+                    if (!existingType) {
+                        usedEdgesMap.set(step.edge, typeKey);
+                    } else if (existingType !== typeKey && existingType !== 'mixed') {
+                        usedEdgesMap.set(step.edge, 'mixed');
+                    }
                     curr = step.node;
                 }
             }
@@ -1291,11 +1300,17 @@ function calculateDynamicAllocation(destName) {
     allocate(reqBoats, 'boats', allocationRes.boats);
 
     // Draw routes
-    const pathEdges = Array.from(usedEdges);
+    const pathEdges = Array.from(usedEdgesMap.keys());
     const routeGeoJSON = buildRouteGeoJSON(pathEdges);
     
     dynamicRouteLayer = L.geoJSON(routeGeoJSON, {
-        style: { color: '#ff8c00', weight: 6, dashArray: '10, 10', opacity: 0.8 }
+        style: (feature) => {
+            const type = usedEdgesMap.get(feature.properties.id);
+            let edgeColor = '#ff8c00'; // Default Orange (food/water/mixed)
+            if (type === 'medical') edgeColor = '#e31a1c'; // Red for medical
+            if (type === 'boats') edgeColor = '#1f78b4'; // Blue for boats
+            return { color: edgeColor, weight: 6, dashArray: '10, 10', opacity: 0.8 };
+        }
     }).addTo(map);
 
     if (routeGeoJSON.features.length > 0) {
