@@ -475,12 +475,19 @@ function setupEventListeners() {
 window.selectHabitation = function(name) {
     selectedHabitation = name;
     
+    if (dynamicRouteLayer) {
+        map.removeLayer(dynamicRouteLayer);
+        dynamicRouteLayer = null;
+    }
+    
     const allocContent = document.getElementById('alloc-content');
-    if (allocContent) allocContent.style.display = 'none';
+    const dynResults = document.getElementById('dynamic-allocation-results');
     
-    calculateDynamicAllocation(name);
-    
-    updateRoutesLayer();
+    if (dynResults) dynResults.style.display = 'none';
+    if (allocContent) {
+        allocContent.style.display = 'block';
+        allocContent.innerHTML = `<p style="font-size: 0.9em; color: #00ffff;">Selected: <b>${name}</b></p><p style="font-size: 0.9em; color: #ccc;">Click the <b>[Check Logistics & Accessibility Route]</b> button in the map popup to calculate dynamic supply routes for this habitation.</p>`;
+    }
 };
 
 window.clearAllocationSelection = function() {
@@ -1313,6 +1320,9 @@ function calculateDynamicAllocation(destName) {
     
     const resUI = document.getElementById('dynamic-allocation-results');
     if (resUI) resUI.style.display = 'flex';
+    
+    const allocContent = document.getElementById('alloc-content');
+    if (allocContent) allocContent.style.display = 'none';
     
     // Hide old custom route metrics
     const oldMetrics = document.getElementById('custom-route-metrics');
