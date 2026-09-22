@@ -44,6 +44,34 @@
             <!-- Side Panels -->
             <aside class="side-panel">
                 
+                <!-- Legend -->
+                <div class="panel-section">
+                    <h2>Map Legend</h2>
+                    <div class="card" style="font-size: 0.9em; display: flex; flex-direction: column; gap: 8px;">
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <span style="display:inline-block; width:12px; height:12px; border-radius:50%; background:#228b22; border:1px solid #fff;"></span> Habitation (Safe)
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <span style="display:inline-block; width:12px; height:12px; border-radius:50%; background:#dc143c; border:1px solid #fff;"></span> Habitation (Flooded/Red)
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <span style="display:inline-block; width:12px; height:12px; border-radius:50%; background:#800080; border:1px solid #fff;"></span> Emergency Base
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <span style="display:inline-block; width:12px; height:12px; border-radius:50%; background:#00ced1; border:1px solid #fff;"></span> Relief Camp / Shelter
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <span style="display:inline-block; width:12px; height:12px; border-radius:50%; background:#ffffff; border:2px solid #ff0000;"></span> Hospital
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <span style="display:inline-block; width:12px; height:12px; border-radius:50%; background:#0000ff; border:1px solid #fff;"></span> Police Station
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 8px; margin-top: 5px;">
+                            <span style="display:inline-block; width:20px; height:4px; background:#32cd32; border-bottom: 2px dashed #fff;"></span> Evacuation Route
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Situation Cards -->
                 <div class="panel-section">
                     <h2>Situation Summary</h2>
@@ -174,6 +202,40 @@
                     </div>
                 </div>
 
+                <!-- Dynamic Resource Allocation -->
+                <div class="panel-section">
+                    <h2>Dynamic Logistics Allocation</h2>
+                    <div id="dynamic-allocation-results" class="card" style="display: none; font-size: 0.9em; flex-direction: column; gap: 10px;">
+                        <h3 style="margin: 0; color: #ff8c00; font-size: 1.1em;" id="dynamic-allocation-title">Allocation for: </h3>
+                        
+                        <div>
+                            <strong>Water (L)</strong>
+                            <div id="alloc-water-list" style="margin-left: 10px; color: #ccc;"></div>
+                        </div>
+                        <div>
+                            <strong>Food (Packets)</strong>
+                            <div id="alloc-food-list" style="margin-left: 10px; color: #ccc;"></div>
+                        </div>
+                        <div>
+                            <strong>Medical (Kits)</strong>
+                            <div id="alloc-med-list" style="margin-left: 10px; color: #ccc;"></div>
+                        </div>
+                        <div>
+                            <strong>Rescue Boats</strong>
+                            <div id="alloc-boats-list" style="margin-left: 10px; color: #ccc;"></div>
+                        </div>
+                        
+                        <div style="margin-top: 5px; color: #888; font-style: italic;">
+                            Supply routes are drawn on the map in orange.
+                        </div>
+                        
+                        <div style="display: flex; gap: 10px; margin-top: 5px; padding-top: 10px; border-top: 1px solid #444;">
+                            <button id="btn-alloc-hospital" class="secondary-btn" style="flex: 1; font-size: 0.85em; padding: 5px;">Nearest Hospital</button>
+                            <button id="btn-alloc-police" class="secondary-btn" style="flex: 1; font-size: 0.85em; padding: 5px;">Nearest Police</button>
+                        </div>
+                    </div>
+                </div>
+
             </aside>
         </main>
         
@@ -190,6 +252,6 @@
         
     </div>
 
-    <script src="./ts/main.js"></script>
+    <script src="./ts/main.js?v=12"></script>
 </body>
 </html>

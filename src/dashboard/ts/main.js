@@ -5,6 +5,7 @@ let hazardLayer = null;
 let routesLayer = null;
 let habitationsLayer = null;
 let customRouteLayer = null;
+let dynamicRouteLayer = null;
 let selectedHabitation = null;
 
 let boundsData = {};
@@ -29,8 +30,7 @@ const state = {
     showHospitals: true,
     showPolice: true,
     showBases: true,
-    isRoadBlocked: false,
-    blockedEdgeId: null,
+    blockedEdgeIds: [],
     activeRouteType: null,
     activeRouteArgs: null
 };
@@ -103,7 +103,7 @@ async function loadData() {
                 
                 // Add popup that passes the nearest road edge ID to the toggle function
                 marker.on('click', () => {
-                    const isBlocked = state.isRoadBlocked && state.blockedEdgeId === nearestEdgeId;
+                    const isBlocked = state.blockedEdgeIds.includes(nearestEdgeId);
                     const btnText = isBlocked ? "Unblock Bridge" : "Block Bridge";
                     const btnClass = isBlocked ? "secondary-btn" : "danger-btn";
                     const popupContent = `
@@ -247,8 +247,8 @@ function drawHabitations() {
                         <strong>Accessibility:</strong> ${habNeed.accessibility}
                     </div>
                     <div style="margin-top: 8px;">
-                        <button onclick="window.evacuateFromPopup('${feature.properties.name}')" class="primary-btn" style="padding: 4px 8px; font-size: 0.8rem; width: 100%;">[Evacuate to Nearest Safe Area]</button>
-                        <button onclick="window.routeFromBasePopup('${feature.properties.name}')" class="secondary-btn" style="padding: 4px 8px; font-size: 0.8rem; width: 100%; margin-top: 5px;">[Check Logistics & Accessibility Route]</button>
+                        <button onclick="window.evacuateFromPopup('${feature.properties.name.replace(/'/g, "\\'")}')" class="primary-btn" style="padding: 4px 8px; font-size: 0.8rem; width: 100%;">[Evacuate to Nearest Safe Area]</button>
+                        <button onclick="window.allocateDynamicPopup('${feature.properties.name.replace(/'/g, "\\'")}')" class="secondary-btn" style="padding: 4px 8px; font-size: 0.8rem; width: 100%; margin-top: 5px;">[Check Logistics & Accessibility Route]</button>
                     </div>
                 `;
             } else {
@@ -287,6 +287,24 @@ function drawFacilities() {
               .bindPopup(window.buildFacilityPopup(name, 'Emergency Base'));
             basesLayer.addLayer(marker);
         });
+
+        // Also draw shelters so they are visible
+        const shelterNodes = graphData.nodes.filter(n => n.type === 'shelter');
+        shelterNodes.forEach(n => {
+            const latlng = [n.lat, n.lon];
+            const name = n.name || 'Unknown';
+            const marker = L.circleMarker(latlng, {
+                radius: 9,
+                fillColor: '#00ced1', // Cyan for shelter
+                color: '#ffffff',
+                weight: 2,
+                opacity: 1,
+                fillOpacity: 1
+            }).bindTooltip("Relief Camp / Shelter: " + name)
+              .bindPopup(window.buildFacilityPopup(name, 'Shelter'));
+            basesLayer.addLayer(marker);
+        });
+
         basesLayer.addTo(map);
     }
     
@@ -386,8 +404,7 @@ function setupEventListeners() {
     const btnReset = document.getElementById('btn-reset-road');
     if (btnReset) {
         btnReset.addEventListener('click', () => {
-            state.isRoadBlocked = false;
-            state.blockedEdgeId = null;
+            state.blockedEdgeIds = [];
             document.getElementById('btn-reset-road').style.display = 'none';
             document.getElementById('scenario-metrics').style.display = 'none';
             
@@ -435,6 +452,22 @@ function setupEventListeners() {
         btnPolice.addEventListener('click', () => {
             const srcVal = document.getElementById('evac-source').value;
             calculateFacilityRoute(srcVal, 'police');
+        });
+    }
+
+    const btnAllocHospital = document.getElementById('btn-alloc-hospital');
+    if (btnAllocHospital) {
+        btnAllocHospital.addEventListener('click', () => {
+            const dest = (state.activeRouteArgs && state.activeRouteArgs.dest) ? state.activeRouteArgs.dest : selectedHabitation;
+            if (dest) calculateFacilityRoute(dest, 'hospital');
+        });
+    }
+
+    const btnAllocPolice = document.getElementById('btn-alloc-police');
+    if (btnAllocPolice) {
+        btnAllocPolice.addEventListener('click', () => {
+            const dest = (state.activeRouteArgs && state.activeRouteArgs.dest) ? state.activeRouteArgs.dest : selectedHabitation;
+            if (dest) calculateFacilityRoute(dest, 'police');
         });
     }
 }
@@ -500,6 +533,11 @@ window.routeFromBasePopup = function(destName) {
     map.closePopup();
 };
 
+window.allocateDynamicPopup = function(destName) {
+    calculateDynamicAllocation(destName);
+    map.closePopup();
+};
+
 window.buildFacilityPopup = function(name, type) {
     const resList = resourcesData.filter(r => 
         r.location === name || 
@@ -553,23 +591,23 @@ window.routeFromFacilityPopup = function(sourceName) {
 
 // Global function to allow popups to trigger state changes
 window.toggleRoadBlock = function(id) {
-    if (state.isRoadBlocked && state.blockedEdgeId === id) {
+    if (state.blockedEdgeIds.includes(id)) {
         // Unblock
-        state.isRoadBlocked = false;
-        state.blockedEdgeId = null;
+        state.blockedEdgeIds = state.blockedEdgeIds.filter(eId => eId !== id);
         
-        const btnReset = document.getElementById('btn-reset-road');
-        if (btnReset) btnReset.style.display = 'none';
-        
-        const statusEl = document.getElementById('alloc-status');
-        if (statusEl) {
-            statusEl.textContent = 'Network: Optimal Baseline';
-            statusEl.className = 'rec-row status-optimal';
+        if (state.blockedEdgeIds.length === 0) {
+            const btnReset = document.getElementById('btn-reset-road');
+            if (btnReset) btnReset.style.display = 'none';
+            
+            const statusEl = document.getElementById('alloc-status');
+            if (statusEl) {
+                statusEl.textContent = 'Network: Optimal Baseline';
+                statusEl.className = 'rec-row status-optimal';
+            }
         }
     } else {
         // Block
-        state.isRoadBlocked = true;
-        state.blockedEdgeId = id;
+        state.blockedEdgeIds.push(id);
         
         const btnReset = document.getElementById('btn-reset-road');
         if (btnReset) btnReset.style.display = 'block';
@@ -593,6 +631,8 @@ function retriggerActiveRoute() {
         calculateEvacuationRoute(state.activeRouteArgs.src);
     } else if (state.activeRouteType === 'facility' && state.activeRouteArgs) {
         calculateFacilityRoute(state.activeRouteArgs.src, state.activeRouteArgs.type);
+    } else if (state.activeRouteType === 'dynamic_allocation' && state.activeRouteArgs) {
+        calculateDynamicAllocation(state.activeRouteArgs.dest);
     }
 }
 
@@ -708,7 +748,7 @@ function updateRoutesLayer() {
     
     if (!state.showRoutes) return;
     
-    const activeRouteEdges = state.isRoadBlocked 
+    const activeRouteEdges = state.blockedEdgeIds.length > 0 
         ? scenarioData.re_optimized.route_edges 
         : scenarioData.baseline.route_edges;
         
@@ -718,7 +758,7 @@ function updateRoutesLayer() {
         style: (feature) => {
             const id = feature?.properties?.id;
             
-            if (state.isRoadBlocked && id === state.blockedEdgeId) {
+            if (state.blockedEdgeIds.includes(id)) {
                 return { color: '#000000', weight: 8, dashArray: '2, 8' }; // Blocked (Black dotted)
             }
             
@@ -731,7 +771,7 @@ function updateRoutesLayer() {
                 const dist = parseFloat(feature.properties.distance_km || 0).toFixed(2);
                 layer.bindTooltip(`Road ID: ${id}`);
                 
-                const isBlocked = state.isRoadBlocked && state.blockedEdgeId === id;
+                const isBlocked = state.blockedEdgeIds.includes(id);
                 const btnText = isBlocked ? "Unblock Road Segment" : "Block Road Segment";
                 const btnClass = isBlocked ? "secondary-btn" : "danger-btn";
                 
@@ -825,7 +865,7 @@ function updateRoutesLayer() {
         // Find adjacent edges
         const adj = [];
         edges.forEach(e => {
-            if (state.isRoadBlocked && e.id === state.blockedEdgeId) return; // Skip blocked edge
+            if (state.blockedEdgeIds.includes(e.id)) return; // Skip blocked edge
             
             if (e.source === u_id) adj.push({ target: e.target, weight: e.distance_km, edge_id: e.id });
             if (e.target === u_id) adj.push({ target: e.source, weight: e.distance_km, edge_id: e.id });
@@ -928,7 +968,7 @@ function calculateEvacuationRoute(sourceName) {
     // Find all safe destinations (habitations/shelters with hazard_class == 1)
     const safeDests = [];
     nodes.forEach(n => {
-        if (n.type === 'habitation' || n.type === 'shelter' || n.type === 'base') {
+        if (n.type === 'habitation' || n.type === 'shelter') {
             // Check if it's currently safe
             const habStatus = (needsData.habitations || []).find(h => h.habitation === n.name);
             const hazard = habStatus ? habStatus.hazard_class : 1;
@@ -961,7 +1001,7 @@ function calculateEvacuationRoute(sourceName) {
         
         const adj = [];
         edges.forEach(e => {
-            if (state.isRoadBlocked && e.id === state.blockedEdgeId) return; // Skip blocked
+            if (state.blockedEdgeIds.includes(e.id)) return; // Skip blocked
             
             if (e.source === u_id) adj.push({ target: e.target, weight: e.distance_km, edge_id: e.id });
             if (e.target === u_id) adj.push({ target: e.source, weight: e.distance_km, edge_id: e.id });
@@ -1080,7 +1120,7 @@ function calculateFacilityRoute(sourceName, facilityType) {
         
         const adj = [];
         edges.forEach(e => {
-            if (state.isRoadBlocked && e.id === state.blockedEdgeId) return;
+            if (state.blockedEdgeIds.includes(e.id)) return;
             if (e.source === u_id) adj.push({ target: e.target, weight: e.distance_km, edge_id: e.id });
             if (e.target === u_id) adj.push({ target: e.source, weight: e.distance_km, edge_id: e.id });
         });
@@ -1145,6 +1185,150 @@ function calculateFacilityRoute(sourceName, facilityType) {
     document.getElementById('evac-time').textContent = estTime.toFixed(2);
     document.getElementById('evac-mode').textContent = "Emergency Vehicle";
     document.getElementById('evac-metrics').style.display = 'block';
+}
+
+function calculateDynamicAllocation(destName) {
+    if (customRouteLayer) { map.removeLayer(customRouteLayer); customRouteLayer = null; }
+    if (dynamicRouteLayer) { map.removeLayer(dynamicRouteLayer); dynamicRouteLayer = null; }
+
+    state.activeRouteType = 'dynamic_allocation';
+    state.activeRouteArgs = { dest: destName };
+
+    const nodes = graphData.nodes || [];
+    const edges = graphData.edges || [];
+    const destNode = nodes.find(n => n.name === destName);
+
+    if (!destNode) { alert("Destination not found in routing graph."); return; }
+
+    const habNeed = (needsData.habitations || []).find(n => n.habitation === destName);
+    if (!habNeed) { alert("No needs data found for " + destName); return; }
+
+    const q = habNeed.quantitative_needs || {};
+    let reqWater = q.water_liters || 0;
+    let reqFood = q.food_kg || 0;
+    let reqMed = q.medical_teams || 0;
+    let reqBoats = q.boats || 0;
+
+    // Run Dijkstra from destination to ALL other nodes
+    const dist = {};
+    const prev = {};
+    const pq = new PriorityQueue();
+    nodes.forEach(n => { dist[n.id] = Infinity; prev[n.id] = null; });
+    
+    dist[destNode.id] = 0;
+    pq.enqueue(destNode.id, 0);
+
+    while (!pq.isEmpty()) {
+        const { element: u_id } = pq.dequeue();
+        
+        edges.forEach(e => {
+            if (state.blockedEdgeIds.includes(e.id)) return;
+            let v_id = null;
+            if (e.source === u_id) v_id = e.target;
+            if (e.target === u_id) v_id = e.source;
+            if (v_id) {
+                const alt = dist[u_id] + e.distance_km;
+                if (alt < dist[v_id]) {
+                    dist[v_id] = alt;
+                    prev[v_id] = { node: u_id, edge: e.id };
+                    pq.enqueue(v_id, alt);
+                }
+            }
+        });
+    }
+
+    // Aggregate real capacities from resources.json
+    const available = {};
+    resourcesData.forEach(r => {
+        let loc = r.location;
+        if (!available[loc]) available[loc] = { water: 0, food: 0, medical: 0, boats: 0 };
+        if (r.resource_type === 'water_liters') available[loc].water += r.quantity;
+        if (r.resource_type === 'food_kg') available[loc].food += r.quantity;
+        if (r.resource_type === 'medical_team') available[loc].medical += r.quantity;
+        if (r.resource_type === 'boat') available[loc].boats += r.quantity;
+    });
+
+    // Identify supply nodes that actually have resources
+    const supplyNodes = nodes.filter(n => {
+        let snName = n.name || 'Unknown';
+        if (n.type === 'police') snName = 'Police Station';
+        const cap = available[snName];
+        if (!cap) return false;
+        return dist[n.id] !== Infinity && (cap.water > 0 || cap.food > 0 || cap.medical > 0 || cap.boats > 0);
+    });
+    
+    supplyNodes.sort((a, b) => dist[a.id] - dist[b.id]);
+
+    const allocationRes = { water: [], food: [], med: [], boats: [] };
+    const usedEdges = new Set();
+
+    function allocate(req, typeKey, resList) {
+        let remaining = req;
+        for (const sn of supplyNodes) {
+            if (remaining <= 0) break;
+            let snName = sn.name || 'Unknown';
+            if (sn.type === 'police') snName = 'Police Station';
+            
+            const capObj = available[snName];
+            if (!capObj) continue;
+            
+            const availAmt = capObj[typeKey] || 0;
+            if (availAmt > 0) {
+                const taken = Math.min(availAmt, remaining);
+                capObj[typeKey] -= taken;
+                remaining -= taken;
+                resList.push({ source: snName, amount: taken, dist: dist[sn.id] });
+                
+                // Track path edges back to destination
+                let curr = sn.id;
+                while (prev[curr]) {
+                    const step = prev[curr];
+                    usedEdges.add(step.edge);
+                    curr = step.node;
+                }
+            }
+        }
+    }
+
+    allocate(reqWater, 'water', allocationRes.water);
+    allocate(reqFood, 'food', allocationRes.food);
+    allocate(reqMed, 'medical', allocationRes.med);
+    allocate(reqBoats, 'boats', allocationRes.boats);
+
+    // Draw routes
+    const pathEdges = Array.from(usedEdges);
+    const routeGeoJSON = buildRouteGeoJSON(pathEdges);
+    
+    dynamicRouteLayer = L.geoJSON(routeGeoJSON, {
+        style: { color: '#ff8c00', weight: 6, dashArray: '10, 10', opacity: 0.8 }
+    }).addTo(map);
+
+    if (routeGeoJSON.features.length > 0) {
+        map.fitBounds(dynamicRouteLayer.getBounds());
+    }
+
+    // Update UI
+    const titleEl = document.getElementById('dynamic-allocation-title');
+    if (titleEl) titleEl.textContent = "Allocation for: " + destName;
+    
+    const formatList = (arr) => arr.length === 0 ? "<div>No allocation (0 required or no supply)</div>" : arr.map(a => `<div>• ${Math.round(a.amount).toLocaleString()} from ${a.source} (${a.dist.toFixed(1)} km)</div>`).join('');
+    
+    const wList = document.getElementById('alloc-water-list');
+    const fList = document.getElementById('alloc-food-list');
+    const mList = document.getElementById('alloc-med-list');
+    const bList = document.getElementById('alloc-boats-list');
+    
+    if (wList) wList.innerHTML = formatList(allocationRes.water);
+    if (fList) fList.innerHTML = formatList(allocationRes.food);
+    if (mList) mList.innerHTML = formatList(allocationRes.med);
+    if (bList) bList.innerHTML = formatList(allocationRes.boats);
+    
+    const resUI = document.getElementById('dynamic-allocation-results');
+    if (resUI) resUI.style.display = 'flex';
+    
+    // Hide old custom route metrics
+    const oldMetrics = document.getElementById('custom-route-metrics');
+    if (oldMetrics) oldMetrics.style.display = 'none';
 }
 
 // Simple Priority Queue for Dijkstra
