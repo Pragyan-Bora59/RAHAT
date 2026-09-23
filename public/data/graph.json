@@ -35365,13 +35365,6 @@
       "name": "Oiramghat"
     },
     {
-      "id": "95.163_27.768",
-      "lon": 95.163,
-      "lat": 27.768,
-      "type": "shelter",
-      "name": "Jonai College Relief Camp"
-    },
-    {
       "id": "95.2113_27.838",
       "lon": 95.2113,
       "lat": 27.838,
@@ -51858,22 +51851,6 @@
       "source": "95.16212_27.76631",
       "target": "95.166_27.766",
       "distance_km": 0.3833122209675693,
-      "risk": "Low",
-      "status": "Open"
-    },
-    {
-      "id": "edge_shelter_Jonai College Relief Camp_1",
-      "source": "95.16212_27.76631",
-      "target": "95.163_27.768",
-      "distance_km": 0.20690688025978396,
-      "risk": "Low",
-      "status": "Open"
-    },
-    {
-      "id": "edge_shelter_Jonai College Relief Camp_0",
-      "source": "95.16107_27.76802",
-      "target": "95.163_27.768",
-      "distance_km": 0.18990544456856406,
       "risk": "Low",
       "status": "Open"
     },

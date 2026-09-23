@@ -7,9 +7,7 @@ import shapely.geometry
 import networkx as nx
 
 # Safe Shelters (established in low-risk elevated locations)
-shelters = [
-    {"name": "Jonai College Relief Camp", "lat": 27.768, "lon": 95.163}
-]
+shelters = []
 
 def calculate_distance(lat1, lon1, lat2, lon2):
     """Haversine distance in km"""

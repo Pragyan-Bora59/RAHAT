@@ -981,7 +981,7 @@ function calculateEvacuationRoute(sourceName) {
     // Find all safe destinations (habitations/shelters/bases with hazard_class == 1)
     const safeDests = [];
     nodes.forEach(n => {
-        if (n.type === 'habitation' || n.type === 'shelter' || n.type === 'base') {
+        if (n.type === 'habitation' || n.type === 'base' || n.type === 'hospital' || n.type === 'police') {
             // Check if it's currently safe
             const habStatus = (needsData.habitations || []).find(h => h.habitation === n.name);
             const hazard = habStatus ? habStatus.hazard_class : 1;
