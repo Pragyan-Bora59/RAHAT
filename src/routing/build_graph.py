@@ -38,18 +38,18 @@ def build_graph():
     min_lon, max_lon = 94.8, 95.3
     min_lat, max_lat = 27.6, 27.9
     
-    roads_df = pd.read_parquet(r"d:\flood\datasets\roads and infrastructure\SOI_Roads.parquet", columns=["OBJECTID", "road_type", "surface", "geometry", "bbox"])
+    roads_df = pd.read_parquet(r"d:\RAHAT\datasets\roads and infrastructure\SOI_Roads.parquet", columns=["OBJECTID", "road_type", "surface", "geometry", "bbox"])
     roads_df = extract_bounds(roads_df)
     roads_jonai = roads_df[
-        (roads_df['xmin'] >= min_lon) & (roads_df['xmax'] <= max_lon) &
-        (roads_df['ymin'] >= min_lat) & (roads_df['ymax'] <= max_lat)
+        (roads_df['xmin'] <= max_lon) & (roads_df['xmax'] >= min_lon) &
+        (roads_df['ymin'] <= max_lat) & (roads_df['ymax'] >= min_lat)
     ]
     
-    bridges_df = pd.read_parquet(r"d:\flood\datasets\roads and infrastructure\SOI_Bridges.parquet", columns=["objectid", "geometry", "bbox"])
+    bridges_df = pd.read_parquet(r"d:\RAHAT\datasets\roads and infrastructure\SOI_Bridges.parquet", columns=["objectid", "geometry", "bbox"])
     bridges_df = extract_bounds(bridges_df)
     bridges_jonai = bridges_df[
-        (bridges_df['xmin'] >= min_lon) & (bridges_df['xmax'] <= max_lon) &
-        (bridges_df['ymin'] >= min_lat) & (bridges_df['ymax'] <= max_lat)
+        (bridges_df['xmin'] <= max_lon) & (bridges_df['xmax'] >= min_lon) &
+        (bridges_df['ymin'] <= max_lat) & (bridges_df['ymax'] >= min_lat)
     ]
     
     print(f"Extracted {len(roads_jonai)} roads and {len(bridges_jonai)} bridges.")
@@ -62,34 +62,33 @@ def build_graph():
         geom = shapely.wkb.loads(row['geometry'])
         if geom.geom_type == 'LineString':
             coords = list(geom.coords)
-            start_node = (round(coords[0][0], 4), round(coords[0][1], 4))
-            end_node = (round(coords[-1][0], 4), round(coords[-1][1], 4))
             
-            # Use real geometry for distance
-            dist = calculate_distance(start_node[1], start_node[0], end_node[1], end_node[0])
-            if dist == 0: dist = 0.1
-            
+            # Export the full feature for roads.geojson
             edge_id = str(row['OBJECTID'])
-            
-            G.add_edge(start_node, end_node, id=edge_id, weight=dist, risk="Low", status="Open")
-            
-            # Store in graph nodes too
-            if start_node not in G.nodes: G.nodes[start_node]['type'] = 'intersection'
-            if end_node not in G.nodes: G.nodes[end_node]['type'] = 'intersection'
-            
             geojson_features.append({
                 "type": "Feature",
                 "geometry": shapely.geometry.mapping(geom),
                 "properties": {
                     "id": edge_id,
-                    "source": f"{start_node[0]}_{start_node[1]}",
-                    "target": f"{end_node[0]}_{end_node[1]}",
-                    "distance_km": dist,
                     "risk": "Low",
                     "status": "Open",
                     "type": "road"
                 }
             })
+            
+            # Add each segment as an edge in the graph
+            for i in range(len(coords) - 1):
+                u = (round(coords[i][0], 5), round(coords[i][1], 5))
+                v = (round(coords[i+1][0], 5), round(coords[i+1][1], 5))
+                
+                dist = calculate_distance(u[1], u[0], v[1], v[0])
+                if dist == 0: dist = 0.001
+                
+                seg_id = f"{edge_id}_{i}"
+                G.add_edge(u, v, id=seg_id, weight=dist, risk="Low", status="Open")
+                
+                if u not in G.nodes: G.nodes[u]['type'] = 'intersection'
+                if v not in G.nodes: G.nodes[v]['type'] = 'intersection'
 
     # Add bridges as points for the map
     bridge_features = []
@@ -106,7 +105,7 @@ def build_graph():
             })
             
     # Snap Habitations to the nearest road node
-    with open(r"d:\flood\public\geojson\habitations.geojson", 'r') as f:
+    with open(r"d:\RAHAT\public\geojson\habitations.geojson", 'r') as f:
         hab_data = json.load(f)
         
     habs = hab_data['features']
@@ -144,7 +143,7 @@ def build_graph():
         G.nodes[s_node]['name'] = s['name']
         
     # Connect hospitals
-    hosp_path = r"d:\flood\public\geojson\hospitals.geojson"
+    hosp_path = r"d:\RAHAT\public\geojson\hospitals.geojson"
     if os.path.exists(hosp_path):
         with open(hosp_path, 'r', encoding='utf-8') as f:
             hosp_data = json.load(f)
@@ -163,7 +162,7 @@ def build_graph():
                 G.nodes[h_node]['name'] = name
                 
     # Connect police stations
-    police_path = r"d:\flood\public\geojson\police.geojson"
+    police_path = r"d:\RAHAT\public\geojson\police.geojson"
     if os.path.exists(police_path):
         with open(police_path, 'r', encoding='utf-8') as f:
             police_data = json.load(f)
@@ -216,17 +215,17 @@ def build_graph():
         "edges": export_edges
     }
     
-    os.makedirs(r"d:\flood\public\data", exist_ok=True)
-    with open(r"d:\flood\public\data\graph.json", 'w') as f:
+    os.makedirs(r"d:\RAHAT\public\data", exist_ok=True)
+    with open(r"d:\RAHAT\public\data\graph.json", 'w') as f:
         json.dump(graph_data, f, indent=2)
         
-    with open(r"d:\flood\public\geojson\roads.geojson", 'w') as f:
+    with open(r"d:\RAHAT\public\geojson\roads.geojson", 'w') as f:
         json.dump({
             "type": "FeatureCollection",
             "features": geojson_features
         }, f, indent=2)
         
-    with open(r"d:\flood\public\geojson\bridges.geojson", 'w') as f:
+    with open(r"d:\RAHAT\public\geojson\bridges.geojson", 'w') as f:
         json.dump({
             "type": "FeatureCollection",
             "features": bridge_features
