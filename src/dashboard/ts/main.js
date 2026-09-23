@@ -74,16 +74,16 @@ async function loadData() {
             fetch('../../public/geojson/police.geojson?v=1790176996')
         ]);
         
-        boundsData = await boundsRes.json?v=1790176996();
-        resourcesData = await resRes.json?v=1790176996();
-        scenarioData = await scenRes.json?v=1790176996();
-        graphGeoJSON = await graphGeoRes.json?v=1790176996();
-        graphData = await graphDataRes.json?v=1790176996();
-        habsGeoJSON = await habsRes.json?v=1790176996();
-        bridgesGeoJSON = await bridgesRes.json?v=1790176996();
+        boundsData = await boundsRes.json();
+        resourcesData = await resRes.json();
+        scenarioData = await scenRes.json();
+        graphGeoJSON = await graphGeoRes.json();
+        graphData = await graphDataRes.json();
+        habsGeoJSON = await habsRes.json();
+        bridgesGeoJSON = await bridgesRes.json();
         
-        try { hospitalsGeoJSON = await hospRes.json?v=1790176996(); } catch(e) {}
-        try { policeGeoJSON = await policeRes.json?v=1790176996(); } catch(e) {}
+        try { hospitalsGeoJSON = await hospRes.json(); } catch(e) {}
+        try { policeGeoJSON = await policeRes.json(); } catch(e) {}
         
         // Draw Bridges
         bridgesLayer = L.geoJSON(bridgesGeoJSON, {
@@ -145,7 +145,7 @@ async function loadData() {
 async function fetchNeedsForDate(dateKey) {
     try {
         const res = await fetch(`../../public/data/needs_${dateKey}.json?v=1790176996`);
-        needsData = await res.json?v=1790176996();
+        needsData = await res.json();
     } catch (e) {
         console.error(`Error loading needs for ${dateKey}`, e);
     }
