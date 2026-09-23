@@ -35372,20 +35372,6 @@
       "name": "Jonai College Relief Camp"
     },
     {
-      "id": "95.183_27.796",
-      "lon": 95.183,
-      "lat": 27.796,
-      "type": "shelter",
-      "name": "Rayang ME School Shelter"
-    },
-    {
-      "id": "95.17_27.782",
-      "lon": 95.17,
-      "lat": 27.782,
-      "type": "shelter",
-      "name": "Murkongselek High School Camp"
-    },
-    {
       "id": "95.2113_27.838",
       "lon": 95.2113,
       "lat": 27.838,
@@ -51164,14 +51150,6 @@
       "status": "Open"
     },
     {
-      "id": "edge_shelter_Murkongselek High School Camp_0",
-      "source": "95.16752_27.78207",
-      "target": "95.17_27.782",
-      "distance_km": 0.24409951829912457,
-      "risk": "Low",
-      "status": "Open"
-    },
-    {
       "id": "1578658_8",
       "source": "95.16897_27.78449",
       "target": "95.16952_27.7854",
@@ -51184,14 +51162,6 @@
       "source": "95.16897_27.78449",
       "target": "95.172_27.781",
       "distance_km": 0.4893370696899848,
-      "risk": "Low",
-      "status": "Open"
-    },
-    {
-      "id": "edge_shelter_Murkongselek High School Camp_1",
-      "source": "95.16897_27.78449",
-      "target": "95.17_27.782",
-      "distance_km": 0.29483419569853536,
       "risk": "Low",
       "status": "Open"
     },
@@ -52268,14 +52238,6 @@
       "status": "Open"
     },
     {
-      "id": "edge_shelter_Rayang ME School Shelter_1",
-      "source": "95.18327_27.79492",
-      "target": "95.183_27.796",
-      "distance_km": 0.12299223603740825,
-      "risk": "Low",
-      "status": "Open"
-    },
-    {
       "id": "1575736_2",
       "source": "95.18381_27.7955",
       "target": "95.1851_27.7974",
@@ -52288,14 +52250,6 @@
       "source": "95.18381_27.7955",
       "target": "95.185_27.795",
       "distance_km": 0.12958726349796945,
-      "risk": "Low",
-      "status": "Open"
-    },
-    {
-      "id": "edge_shelter_Rayang ME School Shelter_0",
-      "source": "95.18381_27.7955",
-      "target": "95.183_27.796",
-      "distance_km": 0.09715583647149773,
       "risk": "Low",
       "status": "Open"
     },

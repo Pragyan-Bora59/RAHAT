@@ -8,9 +8,7 @@ import networkx as nx
 
 # Safe Shelters (established in low-risk elevated locations)
 shelters = [
-    {"name": "Jonai College Relief Camp", "lat": 27.768, "lon": 95.163},
-    {"name": "Rayang ME School Shelter", "lat": 27.796, "lon": 95.183},
-    {"name": "Murkongselek High School Camp", "lat": 27.782, "lon": 95.170}
+    {"name": "Jonai College Relief Camp", "lat": 27.768, "lon": 95.163}
 ]
 
 def calculate_distance(lat1, lon1, lat2, lon2):
