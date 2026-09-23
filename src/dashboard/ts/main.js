@@ -63,27 +63,27 @@ function initMap() {
 async function loadData() {
     try {
         const [boundsRes, resRes, scenRes, graphGeoRes, graphDataRes, habsRes, bridgesRes, hospRes, policeRes] = await Promise.all([
-            fetch('../../public/overlays/bounds.json?v=1790174961'),
-            fetch('../../public/data/resources.json?v=1790174961'),
-            fetch('../../public/data/optimization_scenario.json?v=1790174961'),
-            fetch('../../public/geojson/roads.geojson?v=1790174961'),
-            fetch('../../public/data/graph.json?v=1790174961'),
-            fetch('../../public/geojson/habitations.geojson?v=1790174961'),
-            fetch('../../public/geojson/bridges.geojson?v=1790174961'),
-            fetch('../../public/geojson/hospitals.geojson?v=1790174961'),
-            fetch('../../public/geojson/police.geojson?v=1790174961')
+            fetch('../../public/overlays/bounds.json?v=1790176996'),
+            fetch('../../public/data/resources.json?v=1790176996'),
+            fetch('../../public/data/optimization_scenario.json?v=1790176996'),
+            fetch('../../public/geojson/roads.geojson?v=1790176996'),
+            fetch('../../public/data/graph.json?v=1790176996'),
+            fetch('../../public/geojson/habitations.geojson?v=1790176996'),
+            fetch('../../public/geojson/bridges.geojson?v=1790176996'),
+            fetch('../../public/geojson/hospitals.geojson?v=1790176996'),
+            fetch('../../public/geojson/police.geojson?v=1790176996')
         ]);
         
-        boundsData = await boundsRes.json();
-        resourcesData = await resRes.json();
-        scenarioData = await scenRes.json();
-        graphGeoJSON = await graphGeoRes.json();
-        graphData = await graphDataRes.json();
-        habsGeoJSON = await habsRes.json();
-        bridgesGeoJSON = await bridgesRes.json();
+        boundsData = await boundsRes.json?v=1790176996();
+        resourcesData = await resRes.json?v=1790176996();
+        scenarioData = await scenRes.json?v=1790176996();
+        graphGeoJSON = await graphGeoRes.json?v=1790176996();
+        graphData = await graphDataRes.json?v=1790176996();
+        habsGeoJSON = await habsRes.json?v=1790176996();
+        bridgesGeoJSON = await bridgesRes.json?v=1790176996();
         
-        try { hospitalsGeoJSON = await hospRes.json(); } catch(e) {}
-        try { policeGeoJSON = await policeRes.json(); } catch(e) {}
+        try { hospitalsGeoJSON = await hospRes.json?v=1790176996(); } catch(e) {}
+        try { policeGeoJSON = await policeRes.json?v=1790176996(); } catch(e) {}
         
         // Draw Bridges
         bridgesLayer = L.geoJSON(bridgesGeoJSON, {
@@ -144,8 +144,8 @@ async function loadData() {
 
 async function fetchNeedsForDate(dateKey) {
     try {
-        const res = await fetch(`../../public/data/needs_${dateKey}.json`);
-        needsData = await res.json();
+        const res = await fetch(`../../public/data/needs_${dateKey}.json?v=1790176996`);
+        needsData = await res.json?v=1790176996();
     } catch (e) {
         console.error(`Error loading needs for ${dateKey}`, e);
     }
@@ -1254,7 +1254,7 @@ function calculateDynamicAllocation(destName) {
         });
     }
 
-    // Aggregate real capacities from resources.json
+    // Aggregate real capacities from resources.json?v=1790176996
     const available = {};
     resourcesData.forEach(r => {
         let loc = r.location;
