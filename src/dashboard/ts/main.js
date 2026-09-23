@@ -63,15 +63,15 @@ function initMap() {
 async function loadData() {
     try {
         const [boundsRes, resRes, scenRes, graphGeoRes, graphDataRes, habsRes, bridgesRes, hospRes, policeRes] = await Promise.all([
-            fetch('../../public/overlays/bounds.json?v=1790178330'),
-            fetch('../../public/data/resources.json?v=1790178330'),
-            fetch('../../public/data/optimization_scenario.json?v=1790178330'),
-            fetch('../../public/geojson/roads.geojson?v=1790178330'),
-            fetch('../../public/data/graph.json?v=1790178330'),
-            fetch('../../public/geojson/habitations.geojson?v=1790178330'),
-            fetch('../../public/geojson/bridges.geojson?v=1790178330'),
-            fetch('../../public/geojson/hospitals.geojson?v=1790178330'),
-            fetch('../../public/geojson/police.geojson?v=1790178330')
+            fetch('../../public/overlays/bounds.json?v=1790178926'),
+            fetch('../../public/data/resources.json?v=1790178926'),
+            fetch('../../public/data/optimization_scenario.json?v=1790178926'),
+            fetch('../../public/geojson/roads.geojson?v=1790178926'),
+            fetch('../../public/data/graph.json?v=1790178926'),
+            fetch('../../public/geojson/habitations.geojson?v=1790178926'),
+            fetch('../../public/geojson/bridges.geojson?v=1790178926'),
+            fetch('../../public/geojson/hospitals.geojson?v=1790178926'),
+            fetch('../../public/geojson/police.geojson?v=1790178926')
         ]);
         
         boundsData = await boundsRes.json();
@@ -144,7 +144,7 @@ async function loadData() {
 
 async function fetchNeedsForDate(dateKey) {
     try {
-        const res = await fetch(`../../public/data/needs_${dateKey}.json?v=1790178330`);
+        const res = await fetch(`../../public/data/needs_${dateKey}.json?v=1790178926`);
         needsData = await res.json();
     } catch (e) {
         console.error(`Error loading needs for ${dateKey}`, e);
@@ -793,42 +793,29 @@ function updateRoutesLayer() {
   // --- Route GeoJSON Helper ---
     function buildRouteGeoJSON(pathEdges) {
       if (!pathEdges || pathEdges.length === 0) return { type: "FeatureCollection", features: [] };
-      const coords = [];
-      let lastNodeId = null;
-      
-      const edgesInOrder = [...pathEdges].reverse();
-
-      edgesInOrder.forEach(id => {
+      const features = [];
+      pathEdges.forEach(id => {
           const edge = (graphData.edges || []).find(e => e.id === id);
           if (edge) {
               const srcNode = (graphData.nodes || []).find(n => n.id === edge.source);
               const tgtNode = (graphData.nodes || []).find(n => n.id === edge.target);
               if (srcNode && tgtNode) {
-                  if (!lastNodeId || lastNodeId === srcNode.id) {
-                      if (coords.length === 0) coords.push([srcNode.lon, srcNode.lat]);
-                      coords.push([tgtNode.lon, tgtNode.lat]);
-                      lastNodeId = tgtNode.id;
-                  } else {
-                      if (coords.length === 0) coords.push([tgtNode.lon, tgtNode.lat]);
-                      coords.push([srcNode.lon, srcNode.lat]);
-                      lastNodeId = srcNode.id;
-                  }
+                  features.push({
+                      type: "Feature",
+                      properties: { id: edge.id },
+                      geometry: {
+                          type: "LineString",
+                          coordinates: [
+                              [srcNode.lon, srcNode.lat],
+                              [tgtNode.lon, tgtNode.lat]
+                          ]
+                      }
+                  });
               }
           }
       });
-
-      return {
-          type: "FeatureCollection",
-          features: [{
-              type: "Feature",
-              properties: { id: "custom_route" },
-              geometry: {
-                  type: "LineString",
-                  coordinates: coords
-              }
-          }]
-      };
-  }
+      return { type: "FeatureCollection", features: features };
+    }
   
   // --- JS Dijkstra Solver ---
   function calculateCustomRoute(sourceName, destName) {
@@ -981,7 +968,7 @@ function calculateEvacuationRoute(sourceName) {
     // Find all safe destinations (habitations/shelters/bases with hazard_class == 1)
     const safeDests = [];
     nodes.forEach(n => {
-        if (n.type === 'habitation' || n.type === 'base' || n.type === 'hospital' || n.type === 'police') {
+        if (n.type === 'habitation' || n.type === 'base') {
             // Check if it's currently safe
             const habStatus = (needsData.habitations || []).find(h => h.habitation === n.name);
             const hazard = habStatus ? habStatus.hazard_class : 1;
@@ -1239,7 +1226,7 @@ function calculateDynamicAllocation(destName) {
         const { element: u_id } = pq.dequeue();
         
         edges.forEach(e => {
-            if (state.blockedEdgeIds.includes(e.id)) return;
+            if (isEdgeBlocked(e.id)) return;
             let v_id = null;
             if (e.source === u_id) v_id = e.target;
             if (e.target === u_id) v_id = e.source;
@@ -1254,7 +1241,7 @@ function calculateDynamicAllocation(destName) {
         });
     }
 
-    // Aggregate real capacities from resources.json?v=1790178330
+    // Aggregate real capacities from resources.json?v=1790178926
     const available = {};
     resourcesData.forEach(r => {
         let loc = r.location;
