@@ -63,15 +63,15 @@ function initMap() {
 async function loadData() {
     try {
         const [boundsRes, resRes, scenRes, graphGeoRes, graphDataRes, habsRes, bridgesRes, hospRes, policeRes] = await Promise.all([
-            fetch('../../public/overlays/bounds.json?v=1790176996'),
-            fetch('../../public/data/resources.json?v=1790176996'),
-            fetch('../../public/data/optimization_scenario.json?v=1790176996'),
-            fetch('../../public/geojson/roads.geojson?v=1790176996'),
-            fetch('../../public/data/graph.json?v=1790176996'),
-            fetch('../../public/geojson/habitations.geojson?v=1790176996'),
-            fetch('../../public/geojson/bridges.geojson?v=1790176996'),
-            fetch('../../public/geojson/hospitals.geojson?v=1790176996'),
-            fetch('../../public/geojson/police.geojson?v=1790176996')
+            fetch('../../public/overlays/bounds.json?v=1790178330'),
+            fetch('../../public/data/resources.json?v=1790178330'),
+            fetch('../../public/data/optimization_scenario.json?v=1790178330'),
+            fetch('../../public/geojson/roads.geojson?v=1790178330'),
+            fetch('../../public/data/graph.json?v=1790178330'),
+            fetch('../../public/geojson/habitations.geojson?v=1790178330'),
+            fetch('../../public/geojson/bridges.geojson?v=1790178330'),
+            fetch('../../public/geojson/hospitals.geojson?v=1790178330'),
+            fetch('../../public/geojson/police.geojson?v=1790178330')
         ]);
         
         boundsData = await boundsRes.json();
@@ -144,7 +144,7 @@ async function loadData() {
 
 async function fetchNeedsForDate(dateKey) {
     try {
-        const res = await fetch(`../../public/data/needs_${dateKey}.json?v=1790176996`);
+        const res = await fetch(`../../public/data/needs_${dateKey}.json?v=1790178330`);
         needsData = await res.json();
     } catch (e) {
         console.error(`Error loading needs for ${dateKey}`, e);
@@ -1254,7 +1254,7 @@ function calculateDynamicAllocation(destName) {
         });
     }
 
-    // Aggregate real capacities from resources.json?v=1790176996
+    // Aggregate real capacities from resources.json?v=1790178330
     const available = {};
     resourcesData.forEach(r => {
         let loc = r.location;
