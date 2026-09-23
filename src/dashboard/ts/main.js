@@ -30,10 +30,17 @@ const state = {
     showHospitals: true,
     showPolice: true,
     showBases: true,
+    currentDate: null,
     blockedEdgeIds: [],
+    customRouteTarget: null,
     activeRouteType: null,
     activeRouteArgs: null
 };
+
+function isEdgeBlocked(edgeId) {
+    return state.blockedEdgeIds.includes(edgeId) || 
+           state.blockedEdgeIds.some(bId => edgeId.startsWith(bId + '_'));
+}
 
 // --- Initialization ---
 async function init() {
@@ -56,15 +63,15 @@ function initMap() {
 async function loadData() {
     try {
         const [boundsRes, resRes, scenRes, graphGeoRes, graphDataRes, habsRes, bridgesRes, hospRes, policeRes] = await Promise.all([
-            fetch('../../public/overlays/bounds.json'),
-            fetch('../../public/data/resources.json'),
-            fetch('../../public/data/optimization_scenario.json'),
-            fetch('../../public/geojson/roads.geojson'),
-            fetch('../../public/data/graph.json'),
-            fetch('../../public/geojson/habitations.geojson'),
-            fetch('../../public/geojson/bridges.geojson'),
-            fetch('../../public/geojson/hospitals.geojson'),
-            fetch('../../public/geojson/police.geojson')
+            fetch('../../public/overlays/bounds.json?v=1790174961'),
+            fetch('../../public/data/resources.json?v=1790174961'),
+            fetch('../../public/data/optimization_scenario.json?v=1790174961'),
+            fetch('../../public/geojson/roads.geojson?v=1790174961'),
+            fetch('../../public/data/graph.json?v=1790174961'),
+            fetch('../../public/geojson/habitations.geojson?v=1790174961'),
+            fetch('../../public/geojson/bridges.geojson?v=1790174961'),
+            fetch('../../public/geojson/hospitals.geojson?v=1790174961'),
+            fetch('../../public/geojson/police.geojson?v=1790174961')
         ]);
         
         boundsData = await boundsRes.json();
@@ -103,7 +110,7 @@ async function loadData() {
                 
                 // Add popup that passes the nearest road edge ID to the toggle function
                 marker.on('click', () => {
-                    const isBlocked = state.blockedEdgeIds.includes(nearestEdgeId);
+                    const isBlocked = isEdgeBlocked(nearestEdgeId);
                     const btnText = isBlocked ? "Unblock Bridge" : "Block Bridge";
                     const btnClass = isBlocked ? "secondary-btn" : "danger-btn";
                     const popupContent = `
@@ -586,7 +593,7 @@ window.routeFromFacilityPopup = function(sourceName) {
 
 // Global function to allow popups to trigger state changes
 window.toggleRoadBlock = function(id) {
-    if (state.blockedEdgeIds.includes(id)) {
+    if (isEdgeBlocked(id)) {
         // Unblock
         state.blockedEdgeIds = state.blockedEdgeIds.filter(eId => eId !== id);
         
@@ -753,7 +760,7 @@ function updateRoutesLayer() {
         style: (feature) => {
             const id = feature?.properties?.id;
             
-            if (state.blockedEdgeIds.includes(id)) {
+            if (isEdgeBlocked(id)) {
                 return { color: '#000000', weight: 8, dashArray: '2, 8' }; // Blocked (Black dotted)
             }
             
@@ -766,7 +773,7 @@ function updateRoutesLayer() {
                 const dist = parseFloat(feature.properties.distance_km || 0).toFixed(2);
                 layer.bindTooltip(`Road ID: ${id}`);
                 
-                const isBlocked = state.blockedEdgeIds.includes(id);
+                const isBlocked = isEdgeBlocked(id);
                 const btnText = isBlocked ? "Unblock Road Segment" : "Block Road Segment";
                 const btnClass = isBlocked ? "secondary-btn" : "danger-btn";
                 
@@ -784,31 +791,42 @@ function updateRoutesLayer() {
 }
 
   // --- Route GeoJSON Helper ---
-  function buildRouteGeoJSON(pathEdges) {
-      const allFeatures = [...(graphGeoJSON.features || []), ...(bridgesGeoJSON.features || [])];
+    function buildRouteGeoJSON(pathEdges) {
+      if (!pathEdges || pathEdges.length === 0) return { type: "FeatureCollection", features: [] };
+      const coords = [];
+      let lastNodeId = null;
       
-      const missingEdges = pathEdges.filter(id => !allFeatures.some(f => f.properties.id === id));
-      missingEdges.forEach(id => {
+      const edgesInOrder = [...pathEdges].reverse();
+
+      edgesInOrder.forEach(id => {
           const edge = (graphData.edges || []).find(e => e.id === id);
           if (edge) {
               const srcNode = (graphData.nodes || []).find(n => n.id === edge.source);
               const tgtNode = (graphData.nodes || []).find(n => n.id === edge.target);
               if (srcNode && tgtNode) {
-                  allFeatures.push({
-                      type: "Feature",
-                      properties: { id: id },
-                      geometry: {
-                          type: "LineString",
-                          coordinates: [[srcNode.lon, srcNode.lat], [tgtNode.lon, tgtNode.lat]]
-                      }
-                  });
+                  if (!lastNodeId || lastNodeId === srcNode.id) {
+                      if (coords.length === 0) coords.push([srcNode.lon, srcNode.lat]);
+                      coords.push([tgtNode.lon, tgtNode.lat]);
+                      lastNodeId = tgtNode.id;
+                  } else {
+                      if (coords.length === 0) coords.push([tgtNode.lon, tgtNode.lat]);
+                      coords.push([srcNode.lon, srcNode.lat]);
+                      lastNodeId = srcNode.id;
+                  }
               }
           }
       });
-      
+
       return {
           type: "FeatureCollection",
-          features: allFeatures.filter(f => pathEdges.includes(f.properties.id))
+          features: [{
+              type: "Feature",
+              properties: { id: "custom_route" },
+              geometry: {
+                  type: "LineString",
+                  coordinates: coords
+              }
+          }]
       };
   }
   
@@ -860,7 +878,7 @@ function updateRoutesLayer() {
         // Find adjacent edges
         const adj = [];
         edges.forEach(e => {
-            if (state.blockedEdgeIds.includes(e.id)) return; // Skip blocked edge
+            if (isEdgeBlocked(e.id)) return; // Skip blocked edge
             
             if (e.source === u_id) adj.push({ target: e.target, weight: e.distance_km, edge_id: e.id });
             if (e.target === u_id) adj.push({ target: e.source, weight: e.distance_km, edge_id: e.id });
@@ -996,7 +1014,7 @@ function calculateEvacuationRoute(sourceName) {
         
         const adj = [];
         edges.forEach(e => {
-            if (state.blockedEdgeIds.includes(e.id)) return; // Skip blocked
+            if (isEdgeBlocked(e.id)) return; // Skip blocked
             
             if (e.source === u_id) adj.push({ target: e.target, weight: e.distance_km, edge_id: e.id });
             if (e.target === u_id) adj.push({ target: e.source, weight: e.distance_km, edge_id: e.id });
@@ -1119,7 +1137,7 @@ function calculateFacilityRoute(sourceName, facilityType) {
         
         const adj = [];
         edges.forEach(e => {
-            if (state.blockedEdgeIds.includes(e.id)) return;
+            if (isEdgeBlocked(e.id)) return;
             if (e.source === u_id) adj.push({ target: e.target, weight: e.distance_km, edge_id: e.id });
             if (e.target === u_id) adj.push({ target: e.source, weight: e.distance_km, edge_id: e.id });
         });
