@@ -32,13 +32,13 @@ The system features a decoupled, interactive visualization layer providing compr
   ![Evacuation Plan](assets/4.png)
 
 - **Situation Summary**: A dynamic dashboard panel summarizing total affected habitations, estimated displaced populations, and required daily rations based on automated hazard intersection.
-  ![Situation Summary](assets/5.png)
+  ![Situation Summary](assets/6.png)
 
 - **Medical Evacuation Route (Hospital)**: Demonstrates targeted routing to the nearest active, non-flooded medical facility for critical care transport.
-  ![Medical Evacuation Route](assets/6.png)
+  ![Medical Evacuation Route](assets/7.png)
 
 - **Security/Rescue Route (Police Station)**: Showcases optimal pathfinding to the nearest active police station for security or emergency rescue coordination.
-  ![Security Rescue Route](assets/7.png)
+  ![Security Rescue Route](assets/Screenshot%202026-09-25%20000334.png)
 
 ## Directory Architecture
 
