@@ -23,6 +23,13 @@ The detailed demonstration cluster is **Jonai–Murkongselek, Dhemaji District, 
 
 ### 5. Situation Summary
 ![Situation Summary](screenshots/5.png)
+
+### 6. Medical Evacuation Route (Hospital)
+![Medical Evacuation Route](screenshots/6.png)
+
+### 7. Security/Rescue Route (Police Station)
+![Security Rescue Route](screenshots/7.png)
+
 ## Architecture & Major Modules
 1. **Flood Processing (`src/flood/`)**: Extracts binary flood masks from 4 temporal Sentinel-1 SAR observations.
 2. **Terrain Analysis (`src/terrain/`)**: Derives physical gradients (slope) from the COP30 DEM.
