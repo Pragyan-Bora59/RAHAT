@@ -16,35 +16,29 @@ This project heavily emphasizes advanced geospatial analysis and optimization al
 - **Data-Driven Allocation:** Intersects affected habitations with hazard maps to mathematically calculate exact relief needs based on the District Disaster Management Plan (DDMP).
 - **Visualization Layer:** A streamlined, interactive TypeScript/Leaflet interface built to ingest pre-computed hazard data and georeferenced route vectors for immediate operational review.
 
-## System Interfaces & Capabilities
+## Dashboard Features & Visualizations
+The system features a decoupled, interactive visualization layer providing comprehensive insights into flood hazards and evacuation logistics:
 
-### 1. Official Government Baseline Overview
-Provides a complete situational awareness map displaying all relief camps, emergency bases, hospitals, and police stations across the affected terrain.
-![Official Government Baseline](screenshots/1.png)
+- **Official Government Baseline Overview**: Provides a complete situational awareness map displaying all relief camps, emergency bases, hospitals, and police stations across the affected terrain.
+  ![Official Government Baseline](assets/1.png)
 
-### 2. Logistics Allocation for Murkongselek Station Area
-Demonstrates the algorithmic resource distribution, calculating precise paths for water, food, medical kits, and rescue boats from various safe bases to a targeted hazard zone.
-![Logistics Allocation](screenshots/2.png)
+- **Logistics Allocation for Murkongselek Station Area**: Demonstrates the algorithmic resource distribution, calculating precise paths for water, food, medical kits, and rescue boats from various safe bases to a targeted hazard zone.
+  ![Logistics Allocation](assets/2.png)
 
-### 3. Custom Transport Routing
-Shows the engine mapping dynamic transport routes around flood-blocked road networks to ensure continuous supply chain operations.
-![Custom Transport Routing](screenshots/3.png)
+- **Custom Transport Routing**: Shows the engine mapping dynamic transport routes around flood-blocked road networks to ensure continuous supply chain operations.
+  ![Custom Transport Routing](assets/3.png)
 
-### 4. Evacuation Plan Target
-Highlights the shortest safe path for evacuating civilians from a flooded habitation to a safe zone using calculated helicopter or emergency vehicle parameters.
-![Evacuation Plan](screenshots/4.png)
+- **Evacuation Plan Target**: Highlights the shortest safe path for evacuating civilians from a flooded habitation to a safe zone using calculated helicopter or emergency vehicle parameters.
+  ![Evacuation Plan](assets/4.png)
 
-### 5. Situation Summary
-A dynamic dashboard panel summarizing total affected habitations, estimated displaced populations, and required daily rations based on automated hazard intersection.
-![Situation Summary](screenshots/5.png)
+- **Situation Summary**: A dynamic dashboard panel summarizing total affected habitations, estimated displaced populations, and required daily rations based on automated hazard intersection.
+  ![Situation Summary](assets/5.png)
 
-### 6. Medical Evacuation Route (Hospital)
-Demonstrates targeted routing to the nearest active, non-flooded medical facility for critical care transport.
-![Medical Evacuation Route](screenshots/6.png)
+- **Medical Evacuation Route (Hospital)**: Demonstrates targeted routing to the nearest active, non-flooded medical facility for critical care transport.
+  ![Medical Evacuation Route](assets/6.png)
 
-### 7. Security/Rescue Route (Police Station)
-Showcases optimal pathfinding to the nearest active police station for security or emergency rescue coordination.
-![Security Rescue Route](screenshots/7.png)
+- **Security/Rescue Route (Police Station)**: Showcases optimal pathfinding to the nearest active police station for security or emergency rescue coordination.
+  ![Security Rescue Route](assets/7.png)
 
 ## Directory Architecture
 
