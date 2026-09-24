@@ -8,6 +8,21 @@ RAHAT is an operational command tool that converts raw Sentinel-1 satellite obse
 
 The detailed demonstration cluster is **Jonai–Murkongselek, Dhemaji District, Assam**.
 
+## Screenshots
+### 1. Official Government Baseline Overview
+![Official Government Baseline](screenshots/1.png)
+
+### 2. Logistics Allocation for Murkongselek Station Area
+![Logistics Allocation](screenshots/2.png)
+
+### 3. Custom Transport Routing
+![Custom Transport Routing](screenshots/3.png)
+
+### 4. Evacuation Plan Target
+![Evacuation Plan](screenshots/4.png)
+
+### 5. Situation Summary
+![Situation Summary](screenshots/5.png)
 ## Architecture & Major Modules
 1. **Flood Processing (`src/flood/`)**: Extracts binary flood masks from 4 temporal Sentinel-1 SAR observations.
 2. **Terrain Analysis (`src/terrain/`)**: Derives physical gradients (slope) from the COP30 DEM.
